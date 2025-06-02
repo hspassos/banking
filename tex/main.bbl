@@ -1,0 +1,12 @@
+\providecommand{\abntreprintinfo}[1]{%
+ \citeonline{#1}}
+\setlength{\labelsep}{0pt}\begin{thebibliography}{}
+\providecommand{\abntrefinfo}[3]{}
+\providecommand{\abntbstabout}[1]{}
+\abntbstabout{v<VERSION> }
+
+\bibitem[Tolkien 2012]{tolkien2012fellowship}
+\abntrefinfo{Tolkien}{Tolkien}{2012}
+{Tolkien, J. R.~R. \emph{The Fellowship of the Ring: Being the first part of The Lord of the Rings}. England, UK: Houghton Mifflin Harcourt, 2012. v.~1.}
+
+\end{thebibliography}
