@@ -1,284 +1,147 @@
-\documentclass[12pt, openright, oneside, a4paper, english]{abntex2}
+\input{preambulo.tex}
 
-
-
-% ---
-% Pacotes básicos 
-% ---
-\usepackage{lmodern}			% Usa a fonte Latin Modern			
-\usepackage[T1]{fontenc}		% Selecao de codigos de fonte.
-\usepackage[utf8]{inputenc}		% Codificacao do documento (conversão automática dos acentos)
-\usepackage{lastpage}			% Usado pela Ficha catalográfica
-\usepackage{indentfirst}		% Indenta o primeiro parágrafo de cada seção.
-\usepackage{color}				% Controle das cores
-\usepackage{graphicx}			% Inclusão de gráficos
-\usepackage{microtype} 			% para melhorias de justificação
-\usepackage{amsthm}
-\usepackage{amsmath}
-\usepackage{mathtools}
-\usepackage{amsfonts}
-\usepackage{amssymb}
-%\usepackage{mathtools}
-\usepackage{caption}
-\usepackage{subcaption}
-\usepackage{tabularx}
-\usepackage{csquotes}
-\usepackage{makecell}
-
-% \usepackage{subfigure}
-
-%\usepackage{kbordermatrix}
-\usepackage{amsmath}
-
-% \usepackage[portuguese,ruled,lined,linesnumbered]{algorithm2e}
-\usepackage[ruled,lined,linesnumbered]{algorithm2e}
-% \renewcommand{\algorithmcfname}{Algorithm}
-
-\usepackage{multirow}
-
-\usepackage[brazil]{babel}
-\addto\captionsbrazil{%
-\def\bibname{References}%
-\renewcommand{\figurename}{Figure}
-\renewcommand{\tablename}{Table}
-\renewcommand{\listfigurename}{List of Figures}
-\renewcommand{\listtablename}{List of Tables}
-\renewcommand{\contentsname}{Contents}
-\renewcommand\chaptername{Chapter}
-}
-
-\selectlanguage{english}
-
-
-% ---
-		
-% ---
-% Pacotes adicionais, usados apenas no âmbito do Modelo Canônico do abnteX2
-% ---
-\usepackage{lipsum}				% para geração de dummy text
-% ---
-
-% ---
-% Pacotes de citações
-% ---
-%\usepackage{backref}	 % Paginas com as citações na bibl
-%\usepackage[alf,abnt-and-type=&]{abntex2cite}	% Citações padrão ABNT
-\usepackage[alf]{abntex2cite}	% Citações padrão ABNT
-
-
-%\newtheorem{mydef}{Definição}[chapter]
-
-%\usepackage{natbib}
-
-% --- 
-% CONFIGURAÇÕES DE PACOTES
-% --- 
-
-% ---
-% Configurações do pacote backref
-% Usado sem a opção hyperpageref de backref
-%\renewcommand{\backrefpagesname}{Citado na(s) página(s):~}
-% Texto padrão antes do número das páginas
-%\renewcommand{\backref}{}
-% Define os textos da citação
-%\renewcommand*{\backrefalt}[4]{
-%	\ifcase #1 %
-%		Nenhuma citação no texto.%
-%	\or
-%		Citado na página #2.%
-%	\else
-%		Citado #1 vezes nas páginas #2.%
-%	\fi}%
-% ---
-\newtheorem{name}{Printed output}
-
-\selectlanguage{english}
-\renewcommand{\orientadorname}{Supervisor}
-
-
-
-
-
-
-
-% ---
-% Informações de dados para CAPA e FOLHA DE ROSTO
-% ---
-\titulo{Impacto da competição no spread bancário}
-\autor{Henrique de Souza Passos}
-\local{Brasilia}
-\data{2025}
-\orientador{Gandalf, the White}
-
-\instituicao{%
- University of Brasilia
-  \par
- Graduate Program in Economics }
-\tipotrabalho{Master's Thesis}
-% O preambulo deve conter o tipo do trabalho, o objetivo, 
-% o nome da instituição e a área de concentração 
-\preambulo{Doctoral Thesis presented to the Graduate Program in Economics of the University of Brasilia as a partial requirement to obtain the degree of Masters in Economics}
-% ---
-
-
-% ---
-% Configurações de aparência do PDF final
-
-% alterando o aspecto da cor azul
-\definecolor{blue}{RGB}{41,5,195}
-
-% informações do PDF
-\makeatletter
-\hypersetup{
-     	%pagebackref=true,
-		pdftitle={\@title}, 
-		pdfauthor={\@author},
-    	pdfsubject={\imprimirpreambulo},
-	    pdfcreator={LaTeX with abnTeX2},
-		pdfkeywords={abnt}{latex}{abntex}{abntex2}{trabalho acadêmico}, 
-		colorlinks=true,       		% false: boxed links; true: colored links
-    	linkcolor=blue,          	% color of internal links
-    	citecolor=blue,        		% color of links to bibliography
-    	filecolor=magenta,      		% color of file links
-		urlcolor=blue,
-		bookmarksdepth=4
-}
-\makeatother
-
-% O tamanho do parágrafo é dado por:
-\setlength{\parindent}{1.3cm}
-
-% Controle do espaçamento entre um parágrafo e outro:
-\setlength{\parskip}{0.2cm}  % tente também \onelineskip
-
-% ---
-% compila o indice
-% ---
 \makeindex
-
-% ----
 \begin{document}
+
+\selectlanguage{english}
+%\selectlanguage{brazil}
 
 % Retira espaço extra obsoleto entre as frases.
 \frenchspacing 
-
-% ----------------------------------------------------------
-% ELEMENTOS PRÉ-TEXTUAIS
-% ----------------------------------------------------------
-\pretextual
-
-% ---
-% Capa
-% ---
 \imprimircapa
-% ---
-\cleardoublepage
-
-% ---
-% Folha de rosto
-% (o * indica que haverá a ficha bibliográfica)
-% ---
-\imprimirfolhaderosto
-% ---
+\imprimirfolhaderosto*
 
 % ---
 % Inserir a ficha bibliografica
 % ---
+
+% Isto é um exemplo de Ficha Catalográfica, ou ``Dados internacionais de
+% catalogação-na-publicação''. Você pode utilizar este modelo como referência. 
+% Porém, provavelmente a biblioteca da sua universidade lhe fornecerá um PDF
+% com a ficha catalográfica definitiva após a defesa do trabalho. Quando estiver
+% com o documento, salve-o como PDF no diretório do seu projeto e substitua todo
+% o conteúdo de implementação deste arquivo pelo comando abaixo:
+%
 % \begin{fichacatalografica}
-% 	\begin{figure}
-% 	 \includegraphics[scale=0.9]{ficha2.pdf}
-% 	\end{figure}
+%     \includepdf{fig_ficha_catalografica.pdf}
 % \end{fichacatalografica}
 
+\begin{fichacatalografica}
+	\sffamily
+	\vspace*{\fill}					% Posição vertical
+	\begin{center}					% Minipage Centralizado
+	\fbox{\begin{minipage}[c][8cm]{15.5cm}		% Largura
+	\small
+	\imprimirautor
+	%Sobrenome, Nome do autor
+	
+	\hspace{0.5cm} \imprimirtitulo  / \imprimirautor. --
+	\imprimirlocal, \imprimirdata-
+	
+	\hspace{0.5cm} \thelastpage p. : il. (algumas color.) ; 30 cm.\\
+	
+	\hspace{0.5cm} \imprimirorientadorRotulo~\imprimirorientador\\
+	
+	\hspace{0.5cm}
+	\parbox[t]{\textwidth}{\imprimirtipotrabalho~--~\imprimirinstituicao,
+	\imprimirdata.}\\
+	
+	\hspace{0.5cm}
+		1. Banking.
+		2. Competition.
+		2. Credit Spread.
+		I. Victor Gomes.
+		II. Universidade de Brasília.
+		III. Programa de Pós-Graduação em Economia.
+		IV. Título 			
+	\end{minipage}}
+	\end{center}
+\end{fichacatalografica}
+% ---
 
+% Isto é um exemplo de Folha de aprovação, elemento obrigatório da NBR
+% 14724/2011 (seção 4.2.1.3). Você pode utilizar este modelo até a aprovação
+% do trabalho. Após isso, substitua todo o conteúdo deste arquivo por uma
+% imagem da página assinada pela banca com o comando abaixo:
+%
 % \begin{folhadeaprovacao}
-%     \begin{figure}
-%      \includegraphics[bb=110 0 0 750]{aprov.pdf}
-%     \end{figure}
+% \includepdf{folhadeaprovacao_final.pdf}
 % \end{folhadeaprovacao}
+\begin{comment}
+\begin{folhadeaprovacao}
 
+  \begin{center}
+    {\ABNTEXchapterfont\large\imprimirautor}
 
-% ---
-% Declaração de autoria
-% ---
-\newpage
-\begin{center}
-{\ABNTEXchapterfont\Large\textsc{Statement of Authorship}}
-\end{center}
+    \vspace*{\fill}\vspace*{\fill}
+    \begin{center}
+      \ABNTEXchapterfont\bfseries\Large\imprimirtitulo
+    \end{center}
+    \vspace*{\fill}
+    
+    \hspace{.45\textwidth}
+    \begin{minipage}{.5\textwidth}
+        \imprimirpreambulo
+    \end{minipage}%
+    \vspace*{\fill}
+   \end{center}
+        
+   Trabalho aprovado. \imprimirlocal, 24 de novembro de 2012:
 
-\vspace*{1cm}
-
-I hereby declare that the thesis submitted is my own work. All direct or indirect
-sources used are acknowledged as references. I further declare that I have not submitted
-this thesis at any other institution in order to obtain a degree. \\
-
-% ---
-
-
-\newpage
-% ---
-% Dedicatória
+   \assinatura{\textbf{\imprimirorientador} \\ Orientador} 
+   \assinatura{\textbf{Professor} \\ Convidado 1}
+   \assinatura{\textbf{Professor} \\ Convidado 2}
+   %\assinatura{\textbf{Professor} \\ Convidado 3}
+   %\assinatura{\textbf{Professor} \\ Convidado 4}
+      
+   \begin{center}
+    \vspace*{0.5cm}
+    {\large\imprimirlocal}
+    \par
+    {\large\imprimirdata}
+    \vspace*{1cm}
+  \end{center}
+  
+\end{folhadeaprovacao}
+\end{comment}
 % ---
 \begin{dedicatoria}
-  \vspace*{\fill}
-  \centering
-  \noindent
-  \textit{ To my friends and family. I am nothing without them.} \vspace*{\fill}
+   \vspace*{\fill}
+   \centering
+   \noindent
+   \textit{} \vspace*{\fill}
 \end{dedicatoria}
-% ---
-
-
-
-% ---
-% Agradecimentos
 % ---
 \begin{agradecimentos}
 
-I would like to thank all people from The Shire, in particular, my beloved nephew Frodo.
-
 \end{agradecimentos}
-% ---
-
-\newpage
-% ---
-% Epígrafe
 % ---
 \begin{epigrafe}
     \vspace*{\fill}
-	
-	    \noindent
-		\textit{"One Ring to rule them all, One Ring to find them, One Ring to bring them all and in the darkness bind them.."}
-		
-		\begin{flushright}
-		J. R. R. Tolkien
-		\end{flushright}
+	\begin{flushright}
+		\textit{}
+	\end{flushright}
 \end{epigrafe}
-
-
 % ---
-\newpage
-
- 
-
- 
-
 % resumo em português
 \setlength{\absparsep}{18pt} % ajusta o espaçamento dos parágrafos do resumo
-\begin{resumo}[Abstract]
- \begin{otherlanguage*}{english}
+\begin{resumo}
 
 
-\input{src/abstract}
-
-
-\textbf{Keywords:} Invisibility, Sorcery, Ring
-
-\end{otherlanguage*}
+ \textbf{Palavras-chave}: latex. abntex. editoração de texto.
 \end{resumo}
 
-\newpage
+% resumo em inglês
+\begin{resumo}[Abstract]
+ \begin{otherlanguage*}{english}
+   This is the english abstract.
 
-
+   \vspace{\onelineskip}
+ 
+   \noindent 
+   \textbf{Keywords}: latex. abntex. text editoration.
+ \end{otherlanguage*}
+\end{resumo}
 % ---
 % inserir lista de ilustrações
 % ---
@@ -286,7 +149,11 @@ I would like to thank all people from The Shire, in particular, my beloved nephe
 \listoffigures*
 \cleardoublepage
 % ---
-
+% inserir lista de quadros
+% ---
+\pdfbookmark[0]{\listofquadrosname}{loq}
+\listofquadros*
+\cleardoublepage
 % ---
 % inserir lista de tabelas
 % ---
@@ -294,93 +161,81 @@ I would like to thank all people from The Shire, in particular, my beloved nephe
 \listoftables*
 \cleardoublepage
 % ---
-%\begin{siglas}
-  %\item[MSE] Erro médio quadrático
-  %\item[FLR] Relacionamento Lógico Fuzzy
-%\end{siglas}
-
+% inserir lista de abreviaturas e siglas
+% ---
+\begin{siglas}
+  \item[ABNT] Associação Brasileira de Normas Técnicas
+  \item[abnTeX] ABsurdas Normas para TeX
+\end{siglas}
+% ---
+% inserir lista de símbolos
+% ---
+\begin{simbolos}
+  \item[$ \Gamma $] Letra grega Gama
+  \item[$ \Lambda $] Lambda
+  \item[$ \zeta $] Letra grega minúscula zeta
+  \item[$ \in $] Pertence
+\end{simbolos}
 % ---
 % inserir o sumario
 % ---
 \pdfbookmark[0]{\contentsname}{toc}
 \tableofcontents*
 \cleardoublepage
-% ---
-
-% ----------------------------------------------------------
-% ELEMENTOS TEXTUAIS
-% ----------------------------------------------------------
 \textual
 
-% ----------------------------------------------------------
-% Introdução (exemplo de capítulo sem numeração, mas presente no Sumário)
-% ----------------------------------------------------------
-\chapter{Introduction}
-\input{src/intro}
-
-\chapter{Raug}
-\input{src/another_chapter}
+\chapter{Introdução}
 
 
+\chapter{The model}\label{cap_trabalho_academico}
 
-% ----------------------------------------------------------
-% Referências bibliográficas
-% ----------------------------------------------------------
-\citeoption{abnt-etal-list=5}
-\bibliographystyle{abntex2-cite-min}
-\bibliography{references}
+Te model proposed by \citeonline{ho1981} assumes a market of homogeneous banks working as dealers. Borrowers arrive randomly on a Poisson distribution, the probability of a new deposit transaction and a new loan transaction are given by: 
+\begin{align}
+  \lambda_D = \alpha - \beta_a \\
+  \lambda_L = \alpha - \beta_b
+\end{align} 
+Banks can influence the probability of a new deposit or loan by changing it's prices. The prices for deposits $P_D$ and for loans $P_L$ are:
+\begin{align}
+  P_D = p+a \\
+  P_L = p-b 
+\end{align}
+where $p$ is the "true" price of the loan or deposit, and $a$ and $b$ are fees that banks can use to increase the probability of a new deposit or loan.
 
-
-
-% ----------------------------------------------------------
-% Glossário
-% ----------------------------------------------------------
-%
-% Consulte o manual da classe abntex2 para orientações sobre o glossário.
-%
-%\glossary
-
-% ----------------------------------------------------------
-% Apêndices
-% ----------------------------------------------------------
-
+\chapter{Conclusão}
 % ---
-% Inicia os apêndices
-% ---
+
+\bibliographystyle{abntex2-alf}
+\bibliography{bibliography}
+
+
+
 \begin{apendicesenv}
 
-% Imprime uma página indicando o início dos apêndices
-%\partapendices
+\partapendices
 
 % ----------------------------------------------------------
-\chapter{People who have worn the ring}
+\chapter{Quisque libero justo}
 % ----------------------------------------------------------
-\input{src/appendice}
 
-% ----------------------------------------------------------
-%\chapter{Nullam elementum urna vel imperdiet sodales elit ipsum pharetra ligula
-%ac pretium ante justo a nulla curabitur tristique arcu eu metus}
-% ----------------------------------------------------------
-%\lipsum[55-57]
+\lipsum[50]
+
+
 
 \end{apendicesenv}
 % ---
 
 
-% ----------------------------------------------------------
-% Anexos
-% ----------------------------------------------------------
-
-% ---
-% Inicia os anexos
-% ---
-%\begin{anexosenv}
+\begin{anexosenv}
 
 % Imprime uma página indicando o início dos anexos
-%\partanexos
+\partanexos
 
+% ---
+\chapter{Morbi ultrices rutrum lorem.}
+% ---
+\lipsum[30]
 
-%\end{anexosenv}
+\end{anexosenv}
 
 %---------------------------------------------------------------------
 % INDICE REMISSIVO
