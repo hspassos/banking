@@ -189,17 +189,35 @@
 
 \chapter{The model}\label{cap_trabalho_academico}
 
-Te model proposed by \citeonline{ho1981} assumes a market of homogeneous banks working as dealers. Borrowers arrive randomly on a Poisson distribution, the probability of a new deposit transaction and a new loan transaction are given by: 
+The model proposed by \citeonline{ho1981} assumes a market of homogeneous banks working as intermediary dealers. Each bank borrows money from clients to lend it to other clients. Borrowers arrive randomly on a Poisson distribution, the probability of a new deposit transaction and a new loan transaction are given by: 
 \begin{align}
-  \lambda_D = \alpha - \beta_a \\
-  \lambda_L = \alpha - \beta_b
+  \lambda_D = \alpha - \beta a \\
+  \lambda_L = \alpha - \beta b
 \end{align} 
-Banks can influence the probability of a new deposit or loan by changing it's prices. The prices for deposits $P_D$ and for loans $P_L$ are:
+Banks can influence the probability of a new deposit or loan by changing it's prices (making it more or less attractive for new clients). The prices for deposits $P_D$ and for loans $P_L$ are:
 \begin{align}
   P_D = p+a \\
   P_L = p-b 
 \end{align}
 where $p$ is the "true" price of the loan or deposit, and $a$ and $b$ are fees that banks can use to increase the probability of a new deposit or loan.
+
+The bank's wealth portfolio ($W$) is given by $W = Y + I + C$, where $Y$ is the base wealth which is invested in a diversified portfolio, $I$ is the credit inventory and $C$ is the money market position (or short-term net-cash) which is the difference between money market loans borrowings. The expected utility of wealth is given by the following equation:
+\begin{equation}
+  EU(W) = U(W_0) + U'(W_0)r_w W_0 + \frac{1}{2}U''(W_0)(\sigma_I^2 I_0^2 + 2\sigma_{IY} I_0 Y_0 + \sigma_Y^2 Y_0^2)
+\end{equation}
+where $r_w$ is the expected rate of return on wealth, $\sigma_I^2$ is the variance of the credit inventory, $\sigma_Y^2$ is the variance of the base wealth and $\sigma_{IY}$ is the covariance between $I$ and $Y$. For each new deposit transaction, the initial credit inventory changes by $Q$ and the credit inventory is $I_0 - Q$. The utility of one deposit transaction is:
+\begin{equation}
+  \begin{aligned}
+    EU(W|\textit{one deposit transaction}) &= U(W_0) + U'(W_0)aQ +  U'(W_0)r_W W_0 \\ &+ \frac{1}{2}U''(W_0)(\sigma_I^2 Q^2 + 2\sigma_I^2 QI) \\ &+\frac{1}{2}U''(W_0)(\sigma_I^2 I_0^2 + 2\sigma_{IY} I_0 Y_0 + \sigma_Y^2 Y_0^2)
+  \end{aligned}
+\end{equation}
+
+Similarly, for each new loan transaction, the credit inventory is $I_0 + Q$ and the utility of one loan transaction is:
+\begin{equation}
+  \begin{aligned}
+    EU(W|\textit{one loan transaction}) &= U(W_0) + U'(W_0)bQ +  U'(W_0)r_W W_0 \\ &+ \frac{1}{2}U''(W_0)(\sigma_I^2 Q^2 - 2\sigma_I^2 QI) \\ &+\frac{1}{2}U''(W_0)(\sigma_I^2 I_0^2 + 2\sigma_{IY} I_0 Y_0 + \sigma_Y^2 Y_0^2)
+  \end{aligned}
+\end{equation}
 
 \chapter{Conclusão}
 % ---

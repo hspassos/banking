@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2024.12.22)  8 JUL 2025 19:30
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2024.12.22)  18 JUL 2025 16:05
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -751,11 +751,31 @@ LaTeX Info: Redefining \Relbar on input line 971.
 \mathdisplay@stack=\toks36
 LaTeX Info: Redefining \[ on input line 2953.
 LaTeX Info: Redefining \] on input line 2954.
-) (/usr/share/texlive/texmf-dist/tex/latex/abntex2/abntex2cite.sty
+) (/usr/share/texlive/texmf-dist/tex/latex/amscls/amsthm.sty
+Package: amsthm 2020/05/29 v2.20.6
+\thm@style=\toks37
+\thm@bodyfont=\toks38
+\thm@headfont=\toks39
+\thm@notefont=\toks40
+\thm@headpunct=\toks41
+\thm@preskip=\skip261
+\thm@postskip=\skip262
+\thm@headsep=\skip263
+\dth@everypar=\toks42
+) (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/amssymb.sty
+Package: amssymb 2013/01/14 v3.01 AMS font symbols
+ (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/amsfonts.sty
+Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+\symAMSa=\mathgroup4
+\symAMSb=\mathgroup5
+LaTeX Font Info:    Redeclaring math symbol \hbar on input line 98.
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
+)) (/usr/share/texlive/texmf-dist/tex/latex/abntex2/abntex2cite.sty
 Package: abntex2cite 2018/11/24 v-1.9.7 abnTeX2
  (/usr/share/texlive/texmf-dist/tex/latex/abntex2/abntex2abrev.sty)
-\minimumbiblabelwidth=\skip261
-\ABCIauxlen=\skip262
+\minimumbiblabelwidth=\skip264
+\ABCIauxlen=\skip265
 \c@ABCIaux=\count366
 \c@ABCImax=\count367
  (/usr/share/texlive/texmf-dist/tex/generic/iftex/ifpdf.sty
@@ -765,10 +785,10 @@ Package: ifxetex 2019/10/25 v0.7 ifxetex legacy package. Use iftex instead.
 ) (/usr/share/texlive/texmf-dist/tex/latex/relsize/relsize.sty
 Package: relsize 2013/03/29 ver 4.1
 )
-\biblabelsep=\skip263
+\biblabelsep=\skip266
 LaTeX Info: Redefining \newblock on input line 591.
 LaTeX Info: Redefining \cite on input line 618.
-\ABCItoken=\toks37
+\ABCItoken=\toks43
 ) (/usr/share/texlive/texmf-dist/tex/latex/comment/comment.sty
 \CommentStream=\write4
  Excluding comment 'comment')
@@ -776,9 +796,9 @@ Package color Info: Redefining color blue on input line 64.
 Package hyperref Info: Option `colorlinks' set `true' on input line 81.
 \c@quadro=\count368
 \c@loqdepth=\count369
-\cftbeforequadroskip=\skip264
-\cftquadroindent=\skip265
-\cftquadronumwidth=\skip266
+\cftbeforequadroskip=\skip267
+\cftquadroindent=\skip268
+\cftquadronumwidth=\skip269
 )
 \main@idxfile=\write5
 \openout5 = `main.idx'.
@@ -810,7 +830,7 @@ Package hyperref Info: Link coloring ON on input line 4.
 LaTeX Info: Redefining \degres on input line 4.
 LaTeX Info: Redefining \up on input line 4.
 \myptabbox=\box61
-\myptabboxwidth=\skip267
+\myptabboxwidth=\skip270
  (/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count370
@@ -818,12 +838,12 @@ LaTeX Info: Redefining \up on input line 4.
 \scratchbox=\box62
 \nofMPsegments=\count371
 \nofMParguments=\count372
-\everyMPshowfont=\toks38
+\everyMPshowfont=\toks44
 \MPscratchCnt=\count373
 \MPscratchDim=\dimen271
 \MPnumerator=\count374
 \makeMPintoPDFobject=\count375
-\everyMPtoPDFconversion=\toks39
+\everyMPtoPDFconversion=\toks45
 ) (/usr/share/texlive/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 485.
@@ -884,7 +904,18 @@ LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <8> on input line 13.
 LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <6> on input line 13.
-
+LaTeX Font Info:    Trying to load font information for U+msa on input line 13.
+ (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+) (/usr/share/texlive/texmf-dist/tex/latex/microtype/mt-msa.cfg
+File: mt-msa.cfg 2006/02/04 v1.1 microtype config. file: AMS symbols (a) (RS)
+)
+LaTeX Font Info:    Trying to load font information for U+msb on input line 13.
+ (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+) (/usr/share/texlive/texmf-dist/tex/latex/microtype/mt-msb.cfg
+File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
+)
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
@@ -968,7 +999,7 @@ bibitemlist
 ]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\uppercase' on input line 215.
+(hyperref)                removing `\uppercase' on input line 233.
 
 [31
 
@@ -979,7 +1010,7 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 ]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\uppercase' on input line 232.
+(hyperref)                removing `\uppercase' on input line 250.
 
 [35
 
@@ -1005,18 +1036,18 @@ L3 programming layer <2020/03/25>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 19595 strings out of 474222
- 314518 string characters out of 5748732
- 1930975 words of memory out of 5000000
- 41369 multiletter control sequences out of 15000+600000
- 630084 words of font info for 124 fonts, out of 8000000 for 9000
+ 20285 strings out of 474222
+ 323127 string characters out of 5748732
+ 1939975 words of memory out of 5000000
+ 41997 multiletter control sequences out of 15000+600000
+ 648793 words of font info for 155 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  104i,12n,110p,1037b,627s stack positions out of 10000i,1000n,20000p,200000b,200000s
-</usr/share/texmf/fonts/type1/public/lm/lmbx12.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi12.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi8.pfb></usr/share/texmf/fonts/type1/public/lm/lmr10.pfb></usr/share/texmf/fonts/type1/public/lm/lmr12.pfb></usr/share/texmf/fonts/type1/public/lm/lmri12.pfb></usr/share/texmf/fonts/type1/public/lm/lmss10.pfb></usr/share/texmf/fonts/type1/public/lm/lmss12.pfb></usr/share/texmf/fonts/type1/public/lm/lmss17.pfb></usr/share/texmf/fonts/type1/public/lm/lmssbx10.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy10.pfb>
-Output written on main.pdf (39 pages, 222369 bytes).
+</usr/share/texmf/fonts/type1/public/lm/lmbx12.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi12.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi8.pfb></usr/share/texmf/fonts/type1/public/lm/lmr10.pfb></usr/share/texmf/fonts/type1/public/lm/lmr12.pfb></usr/share/texmf/fonts/type1/public/lm/lmr8.pfb></usr/share/texmf/fonts/type1/public/lm/lmri12.pfb></usr/share/texmf/fonts/type1/public/lm/lmss10.pfb></usr/share/texmf/fonts/type1/public/lm/lmss12.pfb></usr/share/texmf/fonts/type1/public/lm/lmss17.pfb></usr/share/texmf/fonts/type1/public/lm/lmssbx10.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy10.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy8.pfb>
+Output written on main.pdf (39 pages, 254498 bytes).
 PDF statistics:
- 366 PDF objects out of 1000 (max. 8388607)
- 299 compressed objects within 3 object streams
- 80 named destinations out of 1000 (max. 500000)
- 43169 words of extra memory for PDF output out of 51595 (max. 10000000)
+ 380 PDF objects out of 1000 (max. 8388607)
+ 308 compressed objects within 4 object streams
+ 83 named destinations out of 1000 (max. 500000)
+ 51361 words of extra memory for PDF output out of 51595 (max. 10000000)
 
