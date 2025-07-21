@@ -189,7 +189,7 @@
 
 \chapter{The model}\label{cap_trabalho_academico}
 
-The model proposed by \citeonline{ho1981} assumes a market of homogeneous banks working as intermediary dealers. Each bank borrows money from clients to lend it to other clients. Borrowers arrive randomly on a Poisson distribution, the probability of a new deposit transaction and a new loan transaction are given by: 
+The model proposed by \citeonline{ho1981} assumes a market of homogeneous banks working as intermediary dealers. Each bank borrows money from clients to lend it to other clients. Borrowers and lenders arrive randomly on a Poisson distribution, the probability of a new deposit transaction and a new loan transaction are given by: 
 \begin{align}
   \lambda_D = \alpha - \beta a \\
   \lambda_L = \alpha - \beta b
@@ -205,7 +205,8 @@ The bank's wealth portfolio ($W$) is given by $W = Y + I + C$, where $Y$ is the 
 \begin{equation}
   EU(W) = U(W_0) + U'(W_0)r_w W_0 + \frac{1}{2}U''(W_0)(\sigma_I^2 I_0^2 + 2\sigma_{IY} I_0 Y_0 + \sigma_Y^2 Y_0^2)
 \end{equation}
-where $r_w$ is the expected rate of return on wealth, $\sigma_I^2$ is the variance of the credit inventory, $\sigma_Y^2$ is the variance of the base wealth and $\sigma_{IY}$ is the covariance between $I$ and $Y$. For each new deposit transaction, the initial credit inventory changes by $Q$ and the credit inventory is $I_0 - Q$. The utility of one deposit transaction is:
+
+The $r_w$ is the expected rate of return on wealth, $\sigma_I^2$ is the variance of the credit inventory, $\sigma_Y^2$ is the variance of the base wealth and $\sigma_{IY}$ is the covariance between $I$ and $Y$. For each new deposit transaction, the initial credit inventory changes by $Q$ and the credit inventory is $I_0 - Q$. The utility of one deposit transaction is:
 \begin{equation}
   \begin{aligned}
     EU(W|\textit{one deposit transaction}) &= U(W_0) + U'(W_0)aQ +  U'(W_0)r_W W_0 \\ &+ \frac{1}{2}U''(W_0)(\sigma_I^2 Q^2 + 2\sigma_I^2 QI) \\ &+\frac{1}{2}U''(W_0)(\sigma_I^2 I_0^2 + 2\sigma_{IY} I_0 Y_0 + \sigma_Y^2 Y_0^2)
@@ -218,6 +219,33 @@ Similarly, for each new loan transaction, the credit inventory is $I_0 + Q$ and 
     EU(W|\textit{one loan transaction}) &= U(W_0) + U'(W_0)bQ +  U'(W_0)r_W W_0 \\ &+ \frac{1}{2}U''(W_0)(\sigma_I^2 Q^2 - 2\sigma_I^2 QI) \\ &+\frac{1}{2}U''(W_0)(\sigma_I^2 I_0^2 + 2\sigma_{IY} I_0 Y_0 + \sigma_Y^2 Y_0^2)
   \end{aligned}
 \end{equation}
+
+\begin{equation}
+  EU(W|a,b) = \lambda_D EU(W|\textit{one deposit transaction}) + \lambda_L EU(W|\textit{one loan transaction})
+\end{equation}
+Deriving the equation 2.8 with respect to the fee $a$ to maximize the wealth, we get to:
+\begin{equation}
+  \frac{\partial EU(W|a,b)}{\partial a} = -\beta \left( U'(W_0)aQ +\frac{1}{2} U''(W_0)\sigma_I^2 (Q^2 + QI) \right) + (\alpha - \beta a) U'(W_0)Q = 0
+\end{equation}
+From 2.9:
+\begin{equation}
+  a = \frac{1}{2} \frac{\alpha}{\beta} + \frac{1}{4} \left(-\frac{U''(W_0)}{U'(W_0)}\right) \sigma_I^2(Q + I)
+\end{equation}
+Doing the same for the fee $b$:
+\begin{equation}
+  \frac{\partial EU(W|a,b)}{\partial b} = -\beta \left( U'(W_0)bQ +\frac{1}{2} U''(W_0)\sigma_I^2 (Q^2 - QI) \right) + (\alpha - \beta b) U'(W_0)Q = 0
+\end{equation}
+\begin{equation}
+  b = \frac{1}{2} \frac{\alpha}{\beta} + \frac{1}{4} \left(-\frac{U''(W_0)}{U'(W_0)}\right) \sigma_I^2(Q - I)
+\end{equation}
+The credit spread is defined by $S=a+b$. Substituting $a$ and $b$ above for $S$ we get:
+\begin{equation}
+  S = \frac{\alpha}{\beta} + \left(-\frac{U''(W_0)}{U'(W_0)}\right) \sigma_I^2Q
+\end{equation}
+
+This is the credit spread that will be estimated in the model, in which the first term $\alpha/\beta$ is the bank's neutral risk spread
+
+
 
 \chapter{Conclusão}
 % ---
