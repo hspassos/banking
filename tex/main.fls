@@ -313,15 +313,9 @@ INPUT /usr/share/texmf/fonts/tfm/public/lm/ec-lmbx12.tfm
 INPUT ./main.lof
 INPUT ./main.lof
 INPUT main.lof
-INPUT ./main.loq
-INPUT ./main.loq
-INPUT main.loq
 INPUT ./main.lot
 INPUT ./main.lot
 INPUT main.lot
-INPUT /usr/share/texmf/fonts/enc/dvips/lm/lm-rm.enc
-INPUT /usr/share/texmf/fonts/enc/dvips/lm/lm-mathit.enc
-INPUT /usr/share/texmf/fonts/enc/dvips/lm/lm-mathsy.enc
 INPUT ./main.toc
 INPUT ./main.toc
 INPUT main.toc
@@ -334,6 +328,9 @@ INPUT /usr/share/texmf/fonts/tfm/public/lm/ec-lmr8.tfm
 INPUT /usr/share/texmf/fonts/tfm/public/lm/ec-lmri8.tfm
 INPUT /usr/share/texmf/fonts/tfm/public/lm/ec-lmr6.tfm
 INPUT /usr/share/texmf/fonts/tfm/public/lm/ec-lmri7.tfm
+INPUT /usr/share/texmf/fonts/enc/dvips/lm/lm-mathit.enc
+INPUT /usr/share/texmf/fonts/enc/dvips/lm/lm-rm.enc
+INPUT /usr/share/texmf/fonts/enc/dvips/lm/lm-mathsy.enc
 INPUT /usr/share/texmf/fonts/tfm/public/lm/ec-lmri10.tfm
 INPUT /usr/share/texmf/fonts/enc/dvips/lm/lm-mathex.enc
 INPUT ./main.bbl
@@ -343,7 +340,6 @@ INPUT ./main.ind
 INPUT ./main.ind
 INPUT main.ind
 OUTPUT main.lof
-OUTPUT main.loq
 OUTPUT main.lot
 OUTPUT main.toc
 INPUT main.aux
@@ -353,6 +349,7 @@ INPUT /usr/share/texmf/fonts/type1/public/lm/lmmi12.pfb
 INPUT /usr/share/texmf/fonts/type1/public/lm/lmmi8.pfb
 INPUT /usr/share/texmf/fonts/type1/public/lm/lmr10.pfb
 INPUT /usr/share/texmf/fonts/type1/public/lm/lmr12.pfb
+INPUT /usr/share/texmf/fonts/type1/public/lm/lmr6.pfb
 INPUT /usr/share/texmf/fonts/type1/public/lm/lmr8.pfb
 INPUT /usr/share/texmf/fonts/type1/public/lm/lmri10.pfb
 INPUT /usr/share/texmf/fonts/type1/public/lm/lmri12.pfb
@@ -361,4 +358,6 @@ INPUT /usr/share/texmf/fonts/type1/public/lm/lmss12.pfb
 INPUT /usr/share/texmf/fonts/type1/public/lm/lmss17.pfb
 INPUT /usr/share/texmf/fonts/type1/public/lm/lmssbx10.pfb
 INPUT /usr/share/texmf/fonts/type1/public/lm/lmsy10.pfb
+INPUT /usr/share/texmf/fonts/type1/public/lm/lmsy6.pfb
 INPUT /usr/share/texmf/fonts/type1/public/lm/lmsy8.pfb
+INPUT /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb

@@ -149,33 +149,11 @@
 \listoffigures*
 \cleardoublepage
 % ---
-% inserir lista de quadros
-% ---
-\pdfbookmark[0]{\listofquadrosname}{loq}
-\listofquadros*
-\cleardoublepage
-% ---
 % inserir lista de tabelas
 % ---
 \pdfbookmark[0]{\listtablename}{lot}
 \listoftables*
 \cleardoublepage
-% ---
-% inserir lista de abreviaturas e siglas
-% ---
-\begin{siglas}
-  \item[ABNT] Associação Brasileira de Normas Técnicas
-  \item[abnTeX] ABsurdas Normas para TeX
-\end{siglas}
-% ---
-% inserir lista de símbolos
-% ---
-\begin{simbolos}
-  \item[$ \Gamma $] Letra grega Gama
-  \item[$ \Lambda $] Lambda
-  \item[$ \zeta $] Letra grega minúscula zeta
-  \item[$ \in $] Pertence
-\end{simbolos}
 % ---
 % inserir o sumario
 % ---
@@ -184,7 +162,7 @@
 \cleardoublepage
 \textual
 
-\chapter{Introdução}
+\chapter{Introduction}
 
 
 \chapter{The model}\label{cap_trabalho_academico}
@@ -242,12 +220,42 @@ The credit spread is defined by $S=a+b$. Substituting $a$ and $b$ above for $S$ 
 \begin{equation}
   S = \frac{\alpha}{\beta} + \left(-\frac{U''(W_0)}{U'(W_0)}\right) \sigma_I^2Q
 \end{equation}
+Defining the Arrow-Pratt coefficient of absolute risk aversion as $R = -\frac{U''(W_0)}{U'(W_0)}$, we can rewrite the credit spread as:
+\begin{equation}
+  S = \frac{\alpha}{\beta} + R \sigma_I^2 Q
+\end{equation}
 
-This is the credit spread that will be estimated in the model, in which the first term $\alpha/\beta$ is the bank's neutral risk spread
+This is the pure spread that will be estimated in the model, in which the first term $\alpha/\beta$ is the bank's neutral risk spread, which is the part of the risk that is affected by the competition. The second term is a first-order risk adjustment, which depends on the risk aversion ($R$), the size of the marginal transactions ($Q$) and the short-term variance of the interest rate ($\sigma_I^2$). The model's assumption of homogeneous banks implies that the terms in the credit spread are the same for all banks, even if the inventories ($I$) and the base wealth ($Y$) are different. 
 
+The empirical model is built based on the theoretical model above but considering three market imperfections: (i) banks also pay implicit expenses through service fees and other costs indirectly involved in the transactions. (ii) the bank's opportunity cost of holding required reserves and (iii) the default risk on loans, for riskier borrowers, the bank may ask for a higher risk premium on the interest rate. The empirical model estimates the bank margins $M$ given by:
+\begin{equation}
+  M = f(S(\centerdot), IR, OR, DP, u)
+\end{equation}
 
+$S(\centerdot)$ is the pure spread defined in eqaution 2.14, $IR$ is the implicit interest expense, $OR$ is the opportunity cost of the required reserves, $DP$ is the default risk premiums on loans and $u$ is the error term.
 
-\chapter{Conclusão}
+\chapter{Sample and Data}
+
+The data used in this study are mainly from the Central Bank of Brazil (Bacen) 
+The variables used in this study for the bank $i$ in the period $t$ are:
+
+\begin{table}[h!]
+\centering
+\begin{tabular}{ p{1.5cm} p{4cm} p{6cm} p{3cm}  }
+\hline
+Variable & Name & Description & Source \\ [0.5ex] 
+\hline\hline
+$D_{it}$ & Deposit interest rate & Rate paid on 30-day certificate of deposits & COSIF \\
+$L_{it}$ & Loan interest rate & Average loan rate & COSIF \\
+$S_{it}$ & Interest rate spread & $L_{it} - D_{it}$ & COSIF \\ 
+[1ex] 
+\hline
+\end{tabular}
+\caption{List of variables}
+\label{table:1}
+\end{table}
+
+\chapter{Concluding Remarks}
 % ---
 
 \bibliographystyle{abntex2-alf}
@@ -259,13 +267,14 @@ This is the credit spread that will be estimated in the model, in which the firs
 
 \partapendices
 
-% ----------------------------------------------------------
-\chapter{Quisque libero justo}
-% ----------------------------------------------------------
+\chapter{Expected utility of wealth}
 
-\lipsum[50]
+The expected utility of wealth is given by the equation:
+\begin{equation}
+  E[U(W)] = U(W_0) + U'(W_0)r_w W_0 + \frac{1}{2}U''(W_0)(\sigma_I^2 I_0^2 + 2\sigma_{IY} I_0 Y_0 + \sigma_Y^2 Y_0^2)
+\end{equation}
 
-
+This function based on the assumption that the agents are risk averse, which is mathematically represented as a concave function, which is defined by the condition: $E[U(W)] < U(E[W])$. \citeonline{ingersoll1987} shows that 
 
 \end{apendicesenv}
 % ---

@@ -1,22 +1,22 @@
 # Fdb version 4
-["bibtex main"] 1752971513.72143 "main.aux" "main.bbl" "main" 1752971518.54023 0
-  "./bibliography.bib" 1752971425.62262 12041 bb20dce3b1a6c05dd407e809b6a1a5d9 ""
+["bibtex main"] 1754423795.19658 "main.aux" "main.bbl" "main" 1754423841.52584 0
+  "./bibliography.bib" 1753396541.09486 12079 94039f8cdf83da9390b68bde35b5c174 ""
   "/usr/share/texlive/texmf-dist/bibtex/bib/abntex2/abntex2-options.bib" 1357081713 5396 4eb260dac60f150ae608d45252853090 ""
   "/usr/share/texlive/texmf-dist/bibtex/bst/abntex2/abntex2-alf.bst" 1543183680 60064 0819ac8568f9a482510a46e3a8a6f605 ""
-  "main.aux" 1752971518.13577 8472 104a0a3a743e165dc0dc5de63fb8c42d "pdflatex"
+  "main.aux" 1754423841.03385 8252 36a765ed4b716a85efa77c128df6c1db "pdflatex"
   (generated)
   "main.bbl"
   "main.blg"
   (rewritten before read)
-["makeindex main.idx"] 1752961917.61082 "main.idx" "main.ind" "main" 1752971518.54005 0
-  "main.idx" 1752971517.91977 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
+["makeindex main.idx"] 1754423788.93023 "main.idx" "main.ind" "main" 1754423841.52566 0
+  "main.idx" 1754423840.75095 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
   (generated)
   "main.ilg"
   "main.ind"
   (rewritten before read)
-["pdflatex"] 1752971513.85031 "/home/hspassos/mestrado/banking/tex/main.tex" "main.pdf" "main" 1752971518.54032 0
+["pdflatex"] 1754423840.10059 "/home/hspassos/mestrado/banking/tex/main.tex" "main.pdf" "main" 1754423841.52595 0
   "/etc/texmf/web2c/texmf.cnf" 1733975436.6578 475 c0e671620eb5563b2130f56340a5fde8 ""
-  "/home/hspassos/mestrado/banking/tex/main.tex" 1752971511.28614 9020 2d365e3180c782b44da302721d904dbd ""
+  "/home/hspassos/mestrado/banking/tex/main.tex" 1754423839.85185 10893 ec4dcdc014f447bf17d7b2500d696349 ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam10.tfm" 1246382020 916 f87d7c45f9c908e672703b83b72241a3 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam5.tfm" 1246382020 924 9904cf1d39e9767e7a3622f2a125a565 ""
@@ -26,6 +26,7 @@
   "/usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm7.tfm" 1246382020 940 228d6584342e91276bf566bcf9716b83 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmr10.tfm" 1136768653 1296 45809c5a464d5f32c8f98ba97c1bb47f ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmr12.tfm" 1136768653 1288 655e228510b4c2a1abe905c368440826 ""
+  "/usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb" 1248133631 31764 459c573c03a4949a528c2cc7f557e217 ""
   "/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii" 1461363279 71627 94eb9990bed73c364d7f53f960cc8c5b ""
   "/usr/share/texlive/texmf-dist/tex/generic/atbegshi/atbegshi.sty" 1575674566 24708 5584a51a7101caf7e6bbf1fc27d8f7b1 ""
   "/usr/share/texlive/texmf-dist/tex/generic/babel-english/english.ldf" 1496785618 7008 9ff5fdcc865b01beca2b0fe4a46231d4 ""
@@ -172,6 +173,7 @@
   "/usr/share/texmf/fonts/type1/public/lm/lmmi8.pfb" 1254269338 30635 833ec815d446ec453a4913fc26d24cbc ""
   "/usr/share/texmf/fonts/type1/public/lm/lmr10.pfb" 1255129361 119235 f35b44530a1d90eb90fe15d9cba67ea0 ""
   "/usr/share/texmf/fonts/type1/public/lm/lmr12.pfb" 1255129361 113634 f99c44d58bae0863375faf0e1d74d612 ""
+  "/usr/share/texmf/fonts/type1/public/lm/lmr6.pfb" 1255129361 123394 d390152bb30feeb496aaaa93299ee9ba ""
   "/usr/share/texmf/fonts/type1/public/lm/lmr8.pfb" 1255129361 122174 a7a08406857c9530a0320a2517f60370 ""
   "/usr/share/texmf/fonts/type1/public/lm/lmri10.pfb" 1255129361 112593 fda2373ba4420af33949610de4c28fe8 ""
   "/usr/share/texmf/fonts/type1/public/lm/lmri12.pfb" 1255129361 109265 32320cb6133d4d76bf83e27b5eb4009b ""
@@ -180,6 +182,7 @@
   "/usr/share/texmf/fonts/type1/public/lm/lmss17.pfb" 1255129361 97155 77b0a2ea02ee9c950117adae5f41f9c9 ""
   "/usr/share/texmf/fonts/type1/public/lm/lmssbx10.pfb" 1255129361 119663 e82fa1a58f98ccd89bdbd77311ac9cf1 ""
   "/usr/share/texmf/fonts/type1/public/lm/lmsy10.pfb" 1254269338 27863 09ce3735688ffde955e72da27c95b61a ""
+  "/usr/share/texmf/fonts/type1/public/lm/lmsy6.pfb" 1254269338 28109 6d61305ed3d0eb794ebe36f15cf44aa0 ""
   "/usr/share/texmf/fonts/type1/public/lm/lmsy8.pfb" 1254269338 27802 5c876bb2c4040caaf035d60bd74a86bd ""
   "/usr/share/texmf/tex/latex/lm/lmodern.sty" 1616454256 1608 b00724785a9e9c599e5181bb8729160b ""
   "/usr/share/texmf/tex/latex/lm/omllmm.fd" 1616454256 890 57f5adccd504fb5c98bdf99ed7e7f195 ""
@@ -191,21 +194,19 @@
   "/usr/share/texmf/web2c/texmf.cnf" 1707919699 40399 f2c302f7d2af602abb742093540a5834 ""
   "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1734893445.50989 5472669 54eaf61a88b6b7896ebd0dac973cb29c ""
   "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1734893529 8214149 0256d6a1275364900a79a0193c40d020 ""
-  "main.aux" 1752971518.13577 8472 104a0a3a743e165dc0dc5de63fb8c42d "pdflatex"
-  "main.bbl" 1752971513.84214 546 cfb8c42a14187d723656755f0ff0b874 "bibtex main"
-  "main.ind" 1752961917.70392 0 d41d8cd98f00b204e9800998ecf8427e "makeindex main.idx"
-  "main.lof" 1752971518.13937 60 082c6d988034146bd6548090246e5839 "pdflatex"
-  "main.loq" 1752971518.13577 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
-  "main.lot" 1752971518.13937 60 082c6d988034146bd6548090246e5839 "pdflatex"
-  "main.tex" 1752971511.28614 9020 2d365e3180c782b44da302721d904dbd ""
-  "main.toc" 1752971518.13937 2543 b320635a744933f79d9240a2833a1dad "pdflatex"
+  "main.aux" 1754423841.03385 8252 36a765ed4b716a85efa77c128df6c1db "pdflatex"
+  "main.bbl" 1754423795.31953 815 8e92f443a056fc776ccaa2a749ced718 "bibtex main"
+  "main.ind" 1754423789.04601 0 d41d8cd98f00b204e9800998ecf8427e "makeindex main.idx"
+  "main.lof" 1754423841.03385 60 082c6d988034146bd6548090246e5839 "pdflatex"
+  "main.lot" 1754423841.03385 148 4296b595730352776112620dcf4ef37a "pdflatex"
+  "main.tex" 1754423839.85185 10893 ec4dcdc014f447bf17d7b2500d696349 ""
+  "main.toc" 1754423841.03385 2479 acedd12a50d61065f12cbbf512fb2f45 "pdflatex"
   "preambulo.tex" 1752864313.11107 3955 c4d186066632c756b2b62754d33e903b ""
   (generated)
   "main.aux"
   "main.idx"
   "main.lof"
   "main.log"
-  "main.loq"
   "main.lot"
   "main.pdf"
   "main.toc"
