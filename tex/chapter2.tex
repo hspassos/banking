@@ -1,0 +1,77 @@
+\chapter{The model}\label{cap_trabalho_academico}
+
+The model proposed by \citeonline{ho1981} assumes a market of homogeneous banks working as intermediary dealers. Each bank borrows money from clients to lend it to other clients. Borrowers and lenders arrive randomly on a Poisson distribution, the probability of a new deposit transaction and a new loan transaction are given by: 
+\begin{align}
+  \lambda_D = \alpha - \beta a \\
+  \lambda_L = \alpha - \beta b
+\end{align} 
+Banks can influence the probability of a new deposit or loan by changing it's prices (making it more or less attractive for new clients). The prices for deposits $P_D$ and for loans $P_L$ are:
+\begin{align}
+  P_D = p+a \\
+  P_L = p-b 
+\end{align}
+where $p$ is the "true" price of the loan or deposit, and $a$ and $b$ are fees that banks can use to increase the probability of a new deposit or loan.
+
+The bank's wealth portfolio ($W$) is given by $W = Y + I + C$, where $Y$ is the base wealth which is invested in a diversified portfolio, $I$ is the credit inventory and $C$ is the money market position (or short-term net-cash) which is the difference between money market loans borrowings. The expected utility of wealth is given by the following equation:
+\begin{equation}
+  EU(W) = U(W_0) + U'(W_0)r_w W_0 + \frac{1}{2}U''(W_0)(\sigma_I^2 I_0^2 + 2\sigma_{IY} I_0 Y_0 + \sigma_Y^2 Y_0^2)
+\end{equation}
+
+The $r_w$ is the expected rate of return on wealth, $\sigma_I^2$ is the variance of the credit inventory, $\sigma_Y^2$ is the variance of the base wealth and $\sigma_{IY}$ is the covariance between $I$ and $Y$. For each new deposit transaction, the initial credit inventory changes by $Q$ and the credit inventory is $I_0 - Q$. The utility of one deposit transaction is:
+\begin{equation}
+  \begin{aligned}
+    EU(W|\textit{one deposit transaction}) &= U(W_0) + U'(W_0)aQ +  U'(W_0)r_W W_0 \\ &+ \frac{1}{2}U''(W_0)(\sigma_I^2 Q^2 + 2\sigma_I^2 QI) \\ &+\frac{1}{2}U''(W_0)(\sigma_I^2 I_0^2 + 2\sigma_{IY} I_0 Y_0 + \sigma_Y^2 Y_0^2)
+  \end{aligned}
+\end{equation}
+
+Similarly, for each new loan transaction, the credit inventory is $I_0 + Q$ and the utility of one loan transaction is:
+\begin{equation}
+  \begin{aligned}
+    EU(W|\textit{one loan transaction}) &= U(W_0) + U'(W_0)bQ +  U'(W_0)r_W W_0 \\ &+ \frac{1}{2}U''(W_0)(\sigma_I^2 Q^2 - 2\sigma_I^2 QI) \\ &+\frac{1}{2}U''(W_0)(\sigma_I^2 I_0^2 + 2\sigma_{IY} I_0 Y_0 + \sigma_Y^2 Y_0^2)
+  \end{aligned}
+\end{equation}
+
+\begin{equation}
+  EU(W|a,b) = \lambda_D EU(W|\textit{one deposit transaction}) + \lambda_L EU(W|\textit{one loan transaction})
+\end{equation}
+Deriving the equation 2.8 with respect to the fee $a$ to maximize the wealth, we get to:
+\begin{equation}
+  \frac{\partial EU(W|a,b)}{\partial a} = -\beta \left( U'(W_0)aQ +\frac{1}{2} U''(W_0)\sigma_I^2 (Q^2 + QI) \right) + (\alpha - \beta a) U'(W_0)Q = 0
+\end{equation}
+From 2.9:
+\begin{equation}
+  a = \frac{1}{2} \frac{\alpha}{\beta} + \frac{1}{4} \left(-\frac{U''(W_0)}{U'(W_0)}\right) \sigma_I^2(Q + I)
+\end{equation}
+Doing the same for the fee $b$:
+\begin{equation}
+  \frac{\partial EU(W|a,b)}{\partial b} = -\beta \left( U'(W_0)bQ +\frac{1}{2} U''(W_0)\sigma_I^2 (Q^2 - QI) \right) + (\alpha - \beta b) U'(W_0)Q = 0
+\end{equation}
+\begin{equation}
+  b = \frac{1}{2} \frac{\alpha}{\beta} + \frac{1}{4} \left(-\frac{U''(W_0)}{U'(W_0)}\right) \sigma_I^2(Q - I)
+\end{equation}
+The credit spread is defined by $S=a+b$. Substituting $a$ and $b$ above for $S$ we get:
+\begin{equation}
+  S = \frac{\alpha}{\beta} + \left(-\frac{U''(W_0)}{U'(W_0)}\right) \sigma_I^2Q
+\end{equation}
+Defining the Arrow-Pratt coefficient of absolute risk aversion as $R = -\frac{U''(W_0)}{U'(W_0)}$, we can rewrite the credit spread as:
+\begin{equation}
+  S = \frac{\alpha}{\beta} + \frac{1}{2} R \sigma_I^2 Q
+\end{equation}
+This is the pure spread that will be estimated in the model, in which the first term $\alpha/\beta$ is the bank's neutral risk spread, which is the part of the risk that is affected by the competition. The second term is a first-order risk adjustment, which depends on the risk aversion ($R$), the size of the marginal transactions ($Q$) and the short-term variance of the interest rate ($\sigma_I^2$). The model's assumption of homogeneous banks implies that the terms in the credit spread are the same for all banks, even if the inventories ($I$) and the base wealth ($Y$) are different. 
+
+The empirical model is built based on the theoretical model above but considering three market imperfections: (i) banks also pay implicit expenses through service fees and other costs indirectly involved in the transactions. (ii) the bank's opportunity cost of holding required reserves and (iii) the default risk on loans, for riskier borrowers, the bank may ask for a higher risk premium on the interest rate. The empirical model estimates the bank margins $M$ given by:
+\begin{equation}
+  M = \delta_0 + \delta_1  IR + \delta_2 OR + \delta_3 DP + u
+\end{equation}
+The intercept $\delta_0$ is the pure spread defined in equation 2.14, $IR$ is the implicit interest expense, $OR$ is the opportunity cost of the required reserves, $DP$ is the default risk premiums on loans and $u$ is the error term.
+
+The equation 2.15 is the first stage of the model used to find the pure spread $\delta_0$ defined on equation 2.14. In the second stage, the regression will be $\delta_0$ estimated for each time $t$:
+\begin{equation}
+  \delta_t = \gamma_0 +\gamma_1 \sigma_t^2 +\varepsilon_t
+\end{equation}
+From equation 2.14: 
+\begin{center}
+  $\gamma_0 = \frac{\alpha}{\beta} \text{ and } \gamma_1 = \frac{1}{2}RQ$
+\end{center}
+
+Competition is affected by the term $\gamma_0$ and $\gamma_1$ is the risk aversion (which the model assumes as the same for all banks).

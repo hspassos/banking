@@ -1,3 +1,13 @@
+\documentclass[
+	12pt,				% tamanho da fonte
+	twoside,			% para impressão em recto e verso. Oposto a oneside
+	a4paper,			% tamanho do papel. 
+	english,			% idioma adicional para hifenização
+	brazil			% o último idioma é o principal do documento
+	]{abntex2}
+
+%openright,			% capítulos começam em pág ímpar (insere página vazia caso preciso)
+
 \input{preambulo.tex}
 
 \makeindex
@@ -122,13 +132,12 @@
 		\textit{}
 	\end{flushright}
 \end{epigrafe}
-% ---
 % resumo em português
 \setlength{\absparsep}{18pt} % ajusta o espaçamento dos parágrafos do resumo
 \begin{resumo}
 
 
- \textbf{Palavras-chave}: latex. abntex. editoração de texto.
+ \textbf{Palavras-chave}: latex.abntex.editoração de texto.
 \end{resumo}
 
 % resumo em inglês
@@ -139,126 +148,34 @@
    \vspace{\onelineskip}
  
    \noindent 
-   \textbf{Keywords}: latex. abntex. text editoration.
+   \textbf{Keywords}: latex.abntex.text editoration.
  \end{otherlanguage*}
 \end{resumo}
-% ---
 % inserir lista de ilustrações
-% ---
 \pdfbookmark[0]{\listfigurename}{lof}
 \listoffigures*
 \cleardoublepage
-% ---
 % inserir lista de tabelas
-% ---
 \pdfbookmark[0]{\listtablename}{lot}
 \listoftables*
 \cleardoublepage
-% ---
 % inserir o sumario
-% ---
 \pdfbookmark[0]{\contentsname}{toc}
 \tableofcontents*
 \cleardoublepage
 \textual
 
-\chapter{Introduction}
+\setcounter{page}{1}
+\input{chapter1.tex}
 
+\input{chapter2.tex}
 
-\chapter{The model}\label{cap_trabalho_academico}
+%\input{chapter3.tex}
 
-The model proposed by \citeonline{ho1981} assumes a market of homogeneous banks working as intermediary dealers. Each bank borrows money from clients to lend it to other clients. Borrowers and lenders arrive randomly on a Poisson distribution, the probability of a new deposit transaction and a new loan transaction are given by: 
-\begin{align}
-  \lambda_D = \alpha - \beta a \\
-  \lambda_L = \alpha - \beta b
-\end{align} 
-Banks can influence the probability of a new deposit or loan by changing it's prices (making it more or less attractive for new clients). The prices for deposits $P_D$ and for loans $P_L$ are:
-\begin{align}
-  P_D = p+a \\
-  P_L = p-b 
-\end{align}
-where $p$ is the "true" price of the loan or deposit, and $a$ and $b$ are fees that banks can use to increase the probability of a new deposit or loan.
-
-The bank's wealth portfolio ($W$) is given by $W = Y + I + C$, where $Y$ is the base wealth which is invested in a diversified portfolio, $I$ is the credit inventory and $C$ is the money market position (or short-term net-cash) which is the difference between money market loans borrowings. The expected utility of wealth is given by the following equation:
-\begin{equation}
-  EU(W) = U(W_0) + U'(W_0)r_w W_0 + \frac{1}{2}U''(W_0)(\sigma_I^2 I_0^2 + 2\sigma_{IY} I_0 Y_0 + \sigma_Y^2 Y_0^2)
-\end{equation}
-
-The $r_w$ is the expected rate of return on wealth, $\sigma_I^2$ is the variance of the credit inventory, $\sigma_Y^2$ is the variance of the base wealth and $\sigma_{IY}$ is the covariance between $I$ and $Y$. For each new deposit transaction, the initial credit inventory changes by $Q$ and the credit inventory is $I_0 - Q$. The utility of one deposit transaction is:
-\begin{equation}
-  \begin{aligned}
-    EU(W|\textit{one deposit transaction}) &= U(W_0) + U'(W_0)aQ +  U'(W_0)r_W W_0 \\ &+ \frac{1}{2}U''(W_0)(\sigma_I^2 Q^2 + 2\sigma_I^2 QI) \\ &+\frac{1}{2}U''(W_0)(\sigma_I^2 I_0^2 + 2\sigma_{IY} I_0 Y_0 + \sigma_Y^2 Y_0^2)
-  \end{aligned}
-\end{equation}
-
-Similarly, for each new loan transaction, the credit inventory is $I_0 + Q$ and the utility of one loan transaction is:
-\begin{equation}
-  \begin{aligned}
-    EU(W|\textit{one loan transaction}) &= U(W_0) + U'(W_0)bQ +  U'(W_0)r_W W_0 \\ &+ \frac{1}{2}U''(W_0)(\sigma_I^2 Q^2 - 2\sigma_I^2 QI) \\ &+\frac{1}{2}U''(W_0)(\sigma_I^2 I_0^2 + 2\sigma_{IY} I_0 Y_0 + \sigma_Y^2 Y_0^2)
-  \end{aligned}
-\end{equation}
-
-\begin{equation}
-  EU(W|a,b) = \lambda_D EU(W|\textit{one deposit transaction}) + \lambda_L EU(W|\textit{one loan transaction})
-\end{equation}
-Deriving the equation 2.8 with respect to the fee $a$ to maximize the wealth, we get to:
-\begin{equation}
-  \frac{\partial EU(W|a,b)}{\partial a} = -\beta \left( U'(W_0)aQ +\frac{1}{2} U''(W_0)\sigma_I^2 (Q^2 + QI) \right) + (\alpha - \beta a) U'(W_0)Q = 0
-\end{equation}
-From 2.9:
-\begin{equation}
-  a = \frac{1}{2} \frac{\alpha}{\beta} + \frac{1}{4} \left(-\frac{U''(W_0)}{U'(W_0)}\right) \sigma_I^2(Q + I)
-\end{equation}
-Doing the same for the fee $b$:
-\begin{equation}
-  \frac{\partial EU(W|a,b)}{\partial b} = -\beta \left( U'(W_0)bQ +\frac{1}{2} U''(W_0)\sigma_I^2 (Q^2 - QI) \right) + (\alpha - \beta b) U'(W_0)Q = 0
-\end{equation}
-\begin{equation}
-  b = \frac{1}{2} \frac{\alpha}{\beta} + \frac{1}{4} \left(-\frac{U''(W_0)}{U'(W_0)}\right) \sigma_I^2(Q - I)
-\end{equation}
-The credit spread is defined by $S=a+b$. Substituting $a$ and $b$ above for $S$ we get:
-\begin{equation}
-  S = \frac{\alpha}{\beta} + \left(-\frac{U''(W_0)}{U'(W_0)}\right) \sigma_I^2Q
-\end{equation}
-Defining the Arrow-Pratt coefficient of absolute risk aversion as $R = -\frac{U''(W_0)}{U'(W_0)}$, we can rewrite the credit spread as:
-\begin{equation}
-  S = \frac{\alpha}{\beta} + R \sigma_I^2 Q
-\end{equation}
-
-This is the pure spread that will be estimated in the model, in which the first term $\alpha/\beta$ is the bank's neutral risk spread, which is the part of the risk that is affected by the competition. The second term is a first-order risk adjustment, which depends on the risk aversion ($R$), the size of the marginal transactions ($Q$) and the short-term variance of the interest rate ($\sigma_I^2$). The model's assumption of homogeneous banks implies that the terms in the credit spread are the same for all banks, even if the inventories ($I$) and the base wealth ($Y$) are different. 
-
-The empirical model is built based on the theoretical model above but considering three market imperfections: (i) banks also pay implicit expenses through service fees and other costs indirectly involved in the transactions. (ii) the bank's opportunity cost of holding required reserves and (iii) the default risk on loans, for riskier borrowers, the bank may ask for a higher risk premium on the interest rate. The empirical model estimates the bank margins $M$ given by:
-\begin{equation}
-  M = f(S(\centerdot), IR, OR, DP, u)
-\end{equation}
-
-$S(\centerdot)$ is the pure spread defined in eqaution 2.14, $IR$ is the implicit interest expense, $OR$ is the opportunity cost of the required reserves, $DP$ is the default risk premiums on loans and $u$ is the error term.
-
-\chapter{Sample and Data}
-
-The data used in this study are mainly from the Central Bank of Brazil (Bacen) 
-The variables used in this study for the bank $i$ in the period $t$ are:
-
-\begin{table}[h!]
-\centering
-\begin{tabular}{ p{1.5cm} p{4cm} p{6cm} p{3cm}  }
-\hline
-Variable & Name & Description & Source \\ [0.5ex] 
-\hline\hline
-$D_{it}$ & Deposit interest rate & Rate paid on 30-day certificate of deposits & COSIF \\
-$L_{it}$ & Loan interest rate & Average loan rate & COSIF \\
-$S_{it}$ & Interest rate spread & $L_{it} - D_{it}$ & COSIF \\ 
-[1ex] 
-\hline
-\end{tabular}
-\caption{List of variables}
-\label{table:1}
-\end{table}
-
-\chapter{Concluding Remarks}
+%\chapter{Concluding Remarks}
 % ---
 
-\bibliographystyle{abntex2-alf}
+\bibliographystyle{abntex2-alf.bst}
 \bibliography{bibliography}
 
 
@@ -279,7 +196,7 @@ This function based on the assumption that the agents are risk averse, which is 
 \end{apendicesenv}
 % ---
 
-
+\begin{comment}
 \begin{anexosenv}
 
 % Imprime uma página indicando o início dos anexos
@@ -291,7 +208,7 @@ This function based on the assumption that the agents are risk averse, which is 
 \lipsum[30]
 
 \end{anexosenv}
-
+\end{comment}
 %---------------------------------------------------------------------
 % INDICE REMISSIVO
 %---------------------------------------------------------------------

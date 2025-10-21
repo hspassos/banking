@@ -5,15 +5,24 @@
 \providecommand{\abntbstabout}[1]{}
 \abntbstabout{v-1.9.7 }
 
-\bibitem[Ho e Saunders 1981]{ho1981}
-\abntrefinfo{Ho e Saunders}{HO; SAUNDERS}{1981}
+\bibitem[Ho and Saunders 1981]{ho1981}
+\abntrefinfo{Ho and Saunders}{HO; SAUNDERS}{1981}
 {HO, T. S.~Y.; SAUNDERS, A. The {{Determinants}} of {{Bank Interest Margins}}: {{Theory}} and {{Empirical Evidence}}.
 \emph{The Journal of Financial and Quantitative Analysis}, JSTOR, v.~16, n.~4, p.~581, nov. 1981.
 ISSN 0022-1090.}
 
 \bibitem[Ingersoll 1987]{ingersoll1987}
 \abntrefinfo{Ingersoll}{INGERSOLL}{1987}
-{INGERSOLL, J. \emph{Theory of Financial Decision Making}. [S.l.]: Bloomsbury Academic, 1987.  (G - Reference,Information and Interdisciplinary Subjects Series).
+{INGERSOLL, J. \emph{Theory of Financial Decision Making}. [S.l.]: Bloomsbury Academic, 1987.
 ISBN 978-0-8476-7359-9.}
+
+\bibitem[Nakane 2001]{nakaneTestCompetitionBrazilian2001}
+\abntrefinfo{Nakane}{NAKANE}{2001}
+{NAKANE, M.~I. A test of competition in {{Brazilian}} banking.
+\emph{Banco Central do Brasil, Working Paper Series}, v.~12, 2001.}
+
+\bibitem[Santos 2021]{santosHighLendingInterest2021}
+\abntrefinfo{Santos}{SANTOS}{2021}
+{SANTOS, T. T.~O. \emph{High {{Lending Interest Rates}} in {{Brazil}}: Cost or Concentration?} [S.l.]: Banco Central do Brasil, 2021.}
 
 \end{thebibliography}
