@@ -5,6 +5,10 @@
 \providecommand{\abntbstabout}[1]{}
 \abntbstabout{v-1.9.7 }
 
+\bibitem[{Banco Central do Brasil} 2025]{financialdata}
+\abntrefinfo{{Banco Central do Brasil}}{{Banco Central do Brasil}}{2025}
+{{Banco Central do Brasil}. \emph{Estabilidade {{Financeira}}: {{Balancetes}} e {{Balan{\c c}os Patrimoniais}}}. 2025.}
+
 \bibitem[Ho and Saunders 1981]{ho1981}
 \abntrefinfo{Ho and Saunders}{HO; SAUNDERS}{1981}
 {HO, T. S.~Y.; SAUNDERS, A. The {{Determinants}} of {{Bank Interest Margins}}: {{Theory}} and {{Empirical Evidence}}.

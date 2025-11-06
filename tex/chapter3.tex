@@ -1,23 +1,27 @@
 \chapter{Sample and Data}
 
-The data used in this study are mainly from the Central Bank of Brazil (Bacen) 
-The variables used in this study for the bank $i$ in the period $t$ are:
+The data used in the first stage are published by \citeonline{financialdata}
+The variables used in the first stage of the model for the bank $i$ in the period $t$ are:
 
 \begin{table}[h!]
-\centering
-\begin{tabular}{ p{1.5cm} p{4cm} p{6cm} p{3cm}  }
-\hline
-Variable & Name & Description & Source \\ [0.5ex] 
-\hline\hline
-$D_{it}$ & Deposit interest rate & CDI rate & B3 \\
-$L_{it}$ & Loan interest rate & Average loan rate & COSIF \\
-$S_{it}$ & Interest rate spread & $L_{it} - D_{it}$ & COSIF \\ 
-$O_{it}$ & Operational costs &  & COSIF \\
-$O_{it}$ & Operational costs &  & COSIF \\
-$O_{it}$ & Operational costs &  & COSIF \\ 
-[1ex] 
-\hline
-\end{tabular}
-\caption{List of variables}
+    \centering
+    \renewcommand{\arraystretch}{2.5} % Espaçamento entre linhas
+    \begin{tabular}{ l l c }
+    \hline
+    Variable & Name & Financial Statement Accounts \\ [0.5ex] 
+    \hline\hline
+    $\textit{spread}_{it}$ & Net Income Margin & $\dfrac{\textit{Interest Income} - \textit{Interest Expense}}{\textit{Interest Bearing Assets}}$ \\ 
+    $\textit{nibd}_{it}$ & Non Interest Bearing Deposits & $\dfrac{\textit{Demand Deposits}}{\textit{Deposits}}$ \\ 
+    $\textit{ibf}_{it}$ & Interest Bearing Funds & $\dfrac{\textit{Interest Bearing Funds}}{\textit{Total Earning Assets}}$ \\
+    $\textit{lever}_{it}$ & Leverage & $\dfrac{\text{Total Liability}}{\textit{Total Equity}}$ \\ 
+    $\textit{opc}_{it}$ & Operational costs & $\dfrac{\textit{Operational Costs}}{\textit{Total Assets}}$ \\ 
+    $\textit{liquid}_{it}$ & Liquidity & $\dfrac{\textit{Liquid Assets}}{\textit{Short Term Liabilities}}$ \\ 
+    $\textit{servr}_{it}$ & Service Revenue & $\dfrac{\textit{Service Income}}{\textit{Operating Income}}$ \\ 
+    $\textit{mktsh}_{it}$ & Market Share & $\dfrac{\textit{Total Credit Operations of Bank i at time t}}{\textit{Total Credit Operations at time t}}$ \\ 
+    [1ex] 
+    \hline
+    \end{tabular}
+\caption{List of variables - 1st stage}
 \label{table:1}
 \end{table}
+

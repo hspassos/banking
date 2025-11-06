@@ -1,22 +1,22 @@
 # Fdb version 4
-["bibtex main"] 1758901021.14278 "main.aux" "main.bbl" "main" 1758901022.50793 0
+["bibtex main"] 1761857474.79061 "main.aux" "main.bbl" "main" 1761946513.0778 0
   "./abntex2-alf.bst" 1755018769.79773 60066 2d7d13e0d4ec763ab38bcee7229cfc84 ""
-  "./bibliography.bib" 1755726694.35785 3211 282515ec5cfcbf5d68b9d8bbf834a67a ""
+  "./bibliography.bib" 1761860543.59457 3258 53ecf6e28da02575488d63be4623fbc3 ""
   "/usr/share/texlive/texmf-dist/bibtex/bib/abntex2/abntex2-options.bib" 1357081713 5396 4eb260dac60f150ae608d45252853090 ""
-  "main.aux" 1758901022.04452 6174 518516d6e482ada873ba9530cee75945 "pdflatex"
+  "main.aux" 1761946512.64773 7102 7e291cec4ce472448da6679dbb7fd7e9 "pdflatex"
   (generated)
   "main.bbl"
   "main.blg"
   (rewritten before read)
-["makeindex main.idx"] 1756149603.49338 "main.idx" "main.ind" "main" 1758901022.50778 0
-  "main.idx" 1758901021.79252 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
+["makeindex main.idx"] 1761857414.64831 "main.idx" "main.ind" "main" 1761946513.07762 0
+  "main.idx" 1761946512.37573 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
   (generated)
   "main.ilg"
   "main.ind"
   (rewritten before read)
-["pdflatex"] 1758901021.25828 "/home/hspassos/mestrado/banking/tex/main.tex" "main.pdf" "main" 1758901022.50803 0
+["pdflatex"] 1761946511.82765 "/home/hspassos/mestrado/banking/tex/main.tex" "main.pdf" "main" 1761946513.07791 0
   "/etc/texmf/web2c/texmf.cnf" 1733975436.6578 475 c0e671620eb5563b2130f56340a5fde8 ""
-  "/home/hspassos/mestrado/banking/tex/main.tex" 1758901019.64052 5507 102a1b55eca2e2f50b95af55beb14a42 ""
+  "/home/hspassos/mestrado/banking/tex/main.tex" 1761857303.08723 5506 871ebbd14b95b2907bcb4ae1c479f6a6 ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam10.tfm" 1246382020 916 f87d7c45f9c908e672703b83b72241a3 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam5.tfm" 1246382020 924 9904cf1d39e9767e7a3622f2a125a565 ""
@@ -190,14 +190,15 @@
   "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1734893529 8214149 0256d6a1275364900a79a0193c40d020 ""
   "chapter1.tex" 1756150105.91991 1447 ee48f458bd9611eb4624d4636fc67227 ""
   "chapter2.tex" 1755633922.17381 5748 c99f44d1c6ed907dc7d0a5bfe5335a3a ""
-  "main.aux" 1758901022.04452 6174 518516d6e482ada873ba9530cee75945 "pdflatex"
-  "main.bbl" 1758901021.25252 1200 d30ddbbb97331497727c0067ab60c485 "bibtex main"
-  "main.ind" 1756149603.60403 0 d41d8cd98f00b204e9800998ecf8427e "makeindex main.idx"
-  "main.lof" 1758901022.04452 59 e432f59b0ceabbfc612531c7cd147396 "pdflatex"
-  "main.lot" 1758901022.04452 59 e432f59b0ceabbfc612531c7cd147396 "pdflatex"
-  "main.tex" 1758901019.64052 5507 102a1b55eca2e2f50b95af55beb14a42 ""
-  "main.toc" 1758901022.04452 1536 93252a28a772c4d0cc75aa0df56c90e3 "pdflatex"
-  "preambulo.tex" 1755633429.10412 3112 2e9decf2622231465866936937a407cb ""
+  "chapter3.tex" 1761946511.52373 1503 74c305bea0021ea243937580bf5620c4 ""
+  "main.aux" 1761946512.64773 7102 7e291cec4ce472448da6679dbb7fd7e9 "pdflatex"
+  "main.bbl" 1761857474.9112 1450 8d9cf9548ae1eaa5b0d2b4174ea8b1aa "bibtex main"
+  "main.ind" 1761857414.74321 0 d41d8cd98f00b204e9800998ecf8427e "makeindex main.idx"
+  "main.lof" 1761946512.65173 59 e432f59b0ceabbfc612531c7cd147396 "pdflatex"
+  "main.lot" 1761946512.65173 158 e347e3801dd15da5566598b2d19c67e4 "pdflatex"
+  "main.tex" 1761857303.08723 5506 871ebbd14b95b2907bcb4ae1c479f6a6 ""
+  "main.toc" 1761946512.65173 1728 82e598ed876d1821c69cf6e82928a8f5 "pdflatex"
+  "preambulo.tex" 1761857411.70721 3114 73832d504f6869b72f6cb461e2d339b8 ""
   (generated)
   "main.aux"
   "main.idx"

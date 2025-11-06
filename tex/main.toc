@@ -9,14 +9,16 @@
 \contentsline {chapter}{\chapternumberline {1}\MakeTextUppercase []{Introduction}}{1}{chapter.1}%
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
 \contentsline {chapter}{\chapternumberline {2}\MakeTextUppercase []{The model}}{3}{chapter.2}%
+\setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
+\contentsline {chapter}{\chapternumberline {3}\MakeTextUppercase []{Sample and Data}}{7}{chapter.3}%
 \setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
-\contentsline {chapter}{\MakeTextUppercase []{Bibliography}}{7}{section*.12}%
+\contentsline {chapter}{\MakeTextUppercase []{Bibliography}}{9}{section*.12}%
 \renewcommand *{\cftappendixname }{APPENDIX \space }
 \setlength {\cftpartindent }{\cftlastnumwidth } \setlength {\cftpartnumwidth }{2em}
 \cftinsert {A}
-\contentsline {part}{\uppercase {Appendix}}{9}{section*.13}%
+\contentsline {part}{\uppercase {Appendix}}{11}{section*.13}%
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
 \setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
 \cftinsert {A}
-\contentsline {appendix}{\chapternumberline {A}\MakeTextUppercase []{Expected utility of wealth}}{11}{appendix.A}%
+\contentsline {appendix}{\chapternumberline {A}\MakeTextUppercase []{Expected utility of wealth}}{13}{appendix.A}%
 \vspace {\cftbeforechapterskip }

@@ -324,6 +324,9 @@ INPUT /usr/share/texmf/fonts/enc/dvips/lm/lm-rm.enc
 INPUT /usr/share/texmf/fonts/enc/dvips/lm/lm-mathsy.enc
 INPUT /usr/share/texmf/fonts/tfm/public/lm/ec-lmri10.tfm
 INPUT /usr/share/texmf/fonts/enc/dvips/lm/lm-mathex.enc
+INPUT ./chapter3.tex
+INPUT ./chapter3.tex
+INPUT chapter3.tex
 INPUT ./main.bbl
 INPUT ./main.bbl
 INPUT main.bbl
