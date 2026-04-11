@@ -1,20 +1,20 @@
 # Fdb version 4
-["bibtex main"] 1761857474.79061 "main.aux" "main.bbl" "main" 1761946513.0778 0
+["bibtex main"] 1761857474.79061 "main.aux" "main.bbl" "main" 1775499835.43687 0
   "./abntex2-alf.bst" 1755018769.79773 60066 2d7d13e0d4ec763ab38bcee7229cfc84 ""
   "./bibliography.bib" 1761860543.59457 3258 53ecf6e28da02575488d63be4623fbc3 ""
   "/usr/share/texlive/texmf-dist/bibtex/bib/abntex2/abntex2-options.bib" 1357081713 5396 4eb260dac60f150ae608d45252853090 ""
-  "main.aux" 1761946512.64773 7102 7e291cec4ce472448da6679dbb7fd7e9 "pdflatex"
+  "main.aux" 1775499834.81587 7102 7e291cec4ce472448da6679dbb7fd7e9 "pdflatex"
   (generated)
   "main.bbl"
   "main.blg"
   (rewritten before read)
-["makeindex main.idx"] 1761857414.64831 "main.idx" "main.ind" "main" 1761946513.07762 0
-  "main.idx" 1761946512.37573 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
+["makeindex main.idx"] 1761857414.64831 "main.idx" "main.ind" "main" 1775499835.43666 0
+  "main.idx" 1775499834.43587 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
   (generated)
   "main.ilg"
   "main.ind"
   (rewritten before read)
-["pdflatex"] 1761946511.82765 "/home/hspassos/mestrado/banking/tex/main.tex" "main.pdf" "main" 1761946513.07791 0
+["pdflatex"] 1775499833.566 "/home/hspassos/mestrado/banking/tex/main.tex" "main.pdf" "main" 1775499835.43701 0
   "/etc/texmf/web2c/texmf.cnf" 1733975436.6578 475 c0e671620eb5563b2130f56340a5fde8 ""
   "/home/hspassos/mestrado/banking/tex/main.tex" 1761857303.08723 5506 871ebbd14b95b2907bcb4ae1c479f6a6 ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
@@ -188,16 +188,16 @@
   "/usr/share/texmf/web2c/texmf.cnf" 1707919699 40399 f2c302f7d2af602abb742093540a5834 ""
   "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1734893445.50989 5472669 54eaf61a88b6b7896ebd0dac973cb29c ""
   "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1734893529 8214149 0256d6a1275364900a79a0193c40d020 ""
-  "chapter1.tex" 1756150105.91991 1447 ee48f458bd9611eb4624d4636fc67227 ""
+  "chapter1.tex" 1775499833.15187 1425 58e7783a26db71619da96b199024fae8 ""
   "chapter2.tex" 1755633922.17381 5748 c99f44d1c6ed907dc7d0a5bfe5335a3a ""
   "chapter3.tex" 1761946511.52373 1503 74c305bea0021ea243937580bf5620c4 ""
-  "main.aux" 1761946512.64773 7102 7e291cec4ce472448da6679dbb7fd7e9 "pdflatex"
+  "main.aux" 1775499834.81587 7102 7e291cec4ce472448da6679dbb7fd7e9 "pdflatex"
   "main.bbl" 1761857474.9112 1450 8d9cf9548ae1eaa5b0d2b4174ea8b1aa "bibtex main"
   "main.ind" 1761857414.74321 0 d41d8cd98f00b204e9800998ecf8427e "makeindex main.idx"
-  "main.lof" 1761946512.65173 59 e432f59b0ceabbfc612531c7cd147396 "pdflatex"
-  "main.lot" 1761946512.65173 158 e347e3801dd15da5566598b2d19c67e4 "pdflatex"
+  "main.lof" 1775499834.82387 59 e432f59b0ceabbfc612531c7cd147396 "pdflatex"
+  "main.lot" 1775499834.82387 158 e347e3801dd15da5566598b2d19c67e4 "pdflatex"
   "main.tex" 1761857303.08723 5506 871ebbd14b95b2907bcb4ae1c479f6a6 ""
-  "main.toc" 1761946512.65173 1728 82e598ed876d1821c69cf6e82928a8f5 "pdflatex"
+  "main.toc" 1775499834.82387 1728 82e598ed876d1821c69cf6e82928a8f5 "pdflatex"
   "preambulo.tex" 1761857411.70721 3114 73832d504f6869b72f6cb461e2d339b8 ""
   (generated)
   "main.aux"
