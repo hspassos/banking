@@ -5,9 +5,21 @@
 \providecommand{\abntbstabout}[1]{}
 \abntbstabout{v-1.9.7 }
 
+\bibitem[Athey and Imbens 2019]{atheyMachineLearningMethods2019}
+\abntrefinfo{Athey and Imbens}{ATHEY; IMBENS}{2019}
+{ATHEY, S.; IMBENS, G.~W. Machine {{Learning Methods That Economists Should Know About}}.
+\emph{Annual Review of Economics}, v.~11, n.~1, p. 685--725, ago. 2019.
+ISSN 1941-1383, 1941-1391.}
+
 \bibitem[{Banco Central do Brasil} 2025]{financialdata}
 \abntrefinfo{{Banco Central do Brasil}}{{Banco Central do Brasil}}{2025}
-{{Banco Central do Brasil}. \emph{Estabilidade {{Financeira}}: {{Balancetes}} e {{Balan{\c c}os Patrimoniais}}}. 2025.}
+{{Banco Central do Brasil}. \emph{Estabilidade {{Financeira}}: {{Balancetes}} e {{Balan\c cos Patrimoniais}}}. 2025.}
+
+\bibitem[Farn{\`e} and Vouldis 2021]{farneBanksBusinessModels2021}
+\abntrefinfo{Farn{\`e} and Vouldis}{FARN{\`E}; VOULDIS}{2021}
+{FARN{\`E}, M.; VOULDIS, A.~T. Banks' business models in the euro area: A cluster analysis in high dimensions.
+\emph{Annals of Operations Research}, v.~305, n.~1-2, p. 23--57, out. 2021.
+ISSN 0254-5330, 1572-9338.}
 
 \bibitem[Ho and Saunders 1981]{ho1981}
 \abntrefinfo{Ho and Saunders}{HO; SAUNDERS}{1981}
@@ -28,5 +40,10 @@ ISBN 978-0-8476-7359-9.}
 \bibitem[Santos 2021]{santosHighLendingInterest2021}
 \abntrefinfo{Santos}{SANTOS}{2021}
 {SANTOS, T. T.~O. \emph{High {{Lending Interest Rates}} in {{Brazil}}: Cost or Concentration?} [S.l.]: Banco Central do Brasil, 2021.}
+
+\bibitem[Steinbach, Ert{\"o}z and Kumar 2004]{steinbachChallengesClusteringHigh2004}
+\abntrefinfo{Steinbach, Ert{\"o}z and Kumar}{STEINBACH; ERT{\"O}Z; KUMAR}{2004}
+{STEINBACH, M.; ERT{\"O}Z, L.; KUMAR, V. The {{Challenges}} of {{Clustering High Dimensional Data}}. In:  WILLE, L.~T. (Ed.). \emph{New {{Directions}} in {{Statistical Physics}}}. Berlin, Heidelberg: Springer Berlin Heidelberg, 2004. p. 273--309.
+ISBN 978-3-642-07739-5 978-3-662-08968-2.}
 
 \end{thebibliography}

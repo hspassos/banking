@@ -1,0 +1,27 @@
+\chapter{Sample and Data}
+
+The data used in the first stage are published by \citeonline{financialdata}
+The variables used in the first stage of the model for the bank $i$ in the period $t$ are:
+
+\begin{table}[h!]
+    \centering
+    \renewcommand{\arraystretch}{2.5} % Espaçamento entre linhas
+    \begin{tabular}{ l l c }
+    \hline
+    Variable & Name & Financial Statement Accounts \\ [0.5ex] 
+    \hline\hline
+    $\textit{spread}_{it}$ & Net Income Margin & $\dfrac{\textit{Interest Income} - \textit{Interest Expense}}{\textit{Interest Bearing Assets}}$ \\ 
+    $\textit{nibd}_{it}$ & Non Interest Bearing Deposits & $\dfrac{\textit{Demand Deposits}}{\textit{Deposits}}$ \\ 
+    $\textit{ibf}_{it}$ & Interest Bearing Funds & $\dfrac{\textit{Interest Bearing Funds}}{\textit{Total Earning Assets}}$ \\
+    $\textit{lever}_{it}$ & Leverage & $\dfrac{\text{Total Liability}}{\textit{Total Equity}}$ \\ 
+    $\textit{opc}_{it}$ & Operational costs & $\dfrac{\textit{Operational Costs}}{\textit{Total Assets}}$ \\ 
+    $\textit{liquid}_{it}$ & Liquidity & $\dfrac{\textit{Liquid Assets}}{\textit{Short Term Liabilities}}$ \\ 
+    $\textit{servr}_{it}$ & Service Revenue & $\dfrac{\textit{Service Income}}{\textit{Operating Income}}$ \\ 
+    $\textit{mktsh}_{it}$ & Market Share & $\dfrac{\textit{Total Credit Operations of Bank i at time t}}{\textit{Total Credit Operations at time t}}$ \\ 
+    [1ex] 
+    \hline
+    \end{tabular}
+\caption{List of variables - 1st stage}
+\label{table:1}
+\end{table}
+

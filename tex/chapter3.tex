@@ -1,27 +1,12 @@
-\chapter{Sample and Data}
+\chapter{Clustering Analysis}
 
-The data used in the first stage are published by \citeonline{financialdata}
-The variables used in the first stage of the model for the bank $i$ in the period $t$ are:
+The econometric model used in this paper assumes homogeneous behavior among financial institutions. However, it is possible that there are different groups of banks with distinct characteristics and behaviors. \citeonline{farneBanksBusinessModels2021} propose a cluster analysis using the k-means method to identify different business models among banks and suggest this as a way to analyse an "increasingly diverse banking industry landscape". \citeonline{atheyMachineLearningMethods2019} more generally suggest "use cluster membership as a way to organize the sample into types of units that may receive different exposures to treatments."
 
-\begin{table}[h!]
-    \centering
-    \renewcommand{\arraystretch}{2.5} % Espaçamento entre linhas
-    \begin{tabular}{ l l c }
-    \hline
-    Variable & Name & Financial Statement Accounts \\ [0.5ex] 
-    \hline\hline
-    $\textit{spread}_{it}$ & Net Income Margin & $\dfrac{\textit{Interest Income} - \textit{Interest Expense}}{\textit{Interest Bearing Assets}}$ \\ 
-    $\textit{nibd}_{it}$ & Non Interest Bearing Deposits & $\dfrac{\textit{Demand Deposits}}{\textit{Deposits}}$ \\ 
-    $\textit{ibf}_{it}$ & Interest Bearing Funds & $\dfrac{\textit{Interest Bearing Funds}}{\textit{Total Earning Assets}}$ \\
-    $\textit{lever}_{it}$ & Leverage & $\dfrac{\text{Total Liability}}{\textit{Total Equity}}$ \\ 
-    $\textit{opc}_{it}$ & Operational costs & $\dfrac{\textit{Operational Costs}}{\textit{Total Assets}}$ \\ 
-    $\textit{liquid}_{it}$ & Liquidity & $\dfrac{\textit{Liquid Assets}}{\textit{Short Term Liabilities}}$ \\ 
-    $\textit{servr}_{it}$ & Service Revenue & $\dfrac{\textit{Service Income}}{\textit{Operating Income}}$ \\ 
-    $\textit{mktsh}_{it}$ & Market Share & $\dfrac{\textit{Total Credit Operations of Bank i at time t}}{\textit{Total Credit Operations at time t}}$ \\ 
-    [1ex] 
-    \hline
-    \end{tabular}
-\caption{List of variables - 1st stage}
-\label{table:1}
-\end{table}
+Our objective is to use the clustering analysis to identify groups of financial institutions with similar characteristics and behaviors, and then the econometric model can be applied to each group separately, allowing for a more precise understanding of the dynamics of the banking industry.
 
+The method used is the k-means clustering algorithm, which is a widely used method for partitioning a dataset into $K$ distinct clusters based on the similarity of the data points. Given a set of observations $X_i$ defined by the balance sheet accounts divided by total assets  of the $i$-th financial institution, the goal is partition the feature space into $K$ subspaces \cite{atheyMachineLearningMethods2019}. 
+
+\section{Principal Component Analysis (PCA)}
+Before doing the cluster segmentetion, one problem to be solved is the high dimensionality of the data. \citeonline{steinbachChallengesClusteringHigh2004} explain that in high dimensionality, the distance between points becomes less meaningful as they become relatively uniform, which can lead to less precise clustering results. In other words, if the financial institutions have many variables (balance sheet accounts), the difference between them become less meanngful and the clusters may not be well defined. The PCA method is an unsupervised method to reduce the dimensionality of the data while retaining as much information as possible. It does this by finding the directions (principal components) that maximize the variance in the data, and then projecting the data onto these directions.
+
+The PCA strategy is to decompose the variables into a smaller number of orthogonal components, which are linear combinations of the original variables. 
