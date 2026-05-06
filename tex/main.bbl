@@ -11,8 +11,12 @@
 \emph{Annual Review of Economics}, v.~11, n.~1, p. 685--725, ago. 2019.
 ISSN 1941-1383, 1941-1391.}
 
+\bibitem[{Banco Central do Brasil} 2025]{balancetes}
+\abntrefinfo{{Banco Central do Brasil}}{{Banco Central do Brasil}}{2025a}
+{{Banco Central do Brasil}. \emph{{Balancetes e Balan\c cos Patrimoniais}}. 2025. Https://www.bcb.gov.br/estabilidadefinanceira/balancetesbalancospatrimoniais.}
+
 \bibitem[{Banco Central do Brasil} 2025]{financialdata}
-\abntrefinfo{{Banco Central do Brasil}}{{Banco Central do Brasil}}{2025}
+\abntrefinfo{{Banco Central do Brasil}}{{Banco Central do Brasil}}{2025b}
 {{Banco Central do Brasil}. \emph{Estabilidade {{Financeira}}: {{Balancetes}} e {{Balan\c cos Patrimoniais}}}. 2025.}
 
 \bibitem[Farn{\`e} and Vouldis 2021]{farneBanksBusinessModels2021}
@@ -31,6 +35,11 @@ ISSN 0022-1090.}
 \abntrefinfo{Ingersoll}{INGERSOLL}{1987}
 {INGERSOLL, J. \emph{Theory of Financial Decision Making}. [S.l.]: Bloomsbury Academic, 1987.
 ISBN 978-0-8476-7359-9.}
+
+\bibitem[James et al. 2023]{IntroductionStatisticalLearning2023}
+\abntrefinfo{James et al.}{JAMES et al.}{2023}
+{JAMES, G. et al. \emph{An {{Introduction}} to {{Statistical Learning}}: With {{Applications}} in {{Python}}}. Cham: Springer International Publishing, 2023.  (Springer {{Texts}} in {{Statistics}}).
+ISBN 978-3-031-38746-3 978-3-031-38747-0.}
 
 \bibitem[Nakane 2001]{nakaneTestCompetitionBrazilian2001}
 \abntrefinfo{Nakane}{NAKANE}{2001}

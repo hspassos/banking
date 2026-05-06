@@ -328,6 +328,16 @@ INPUT ./chapter3.tex
 INPUT ./chapter3.tex
 INPUT chapter3.tex
 INPUT /usr/share/texmf/fonts/tfm/public/lm/ec-lmss17.tfm
+INPUT ./PCA_Optimization.png
+INPUT ./PCA_Optimization.png
+INPUT ./PCA_Optimization.png
+INPUT ./PCA_Optimization.png
+INPUT ./PCA_Optimization.png
+INPUT ./clusters_evolution.png
+INPUT ./clusters_evolution.png
+INPUT ./clusters_evolution.png
+INPUT ./clusters_evolution.png
+INPUT ./clusters_evolution.png
 INPUT ./chapter4.tex
 INPUT ./chapter4.tex
 INPUT chapter4.tex

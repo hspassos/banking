@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2024.12.22)  24 APR 2026 17:56
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2024.12.22)  6 MAY 2026 16:35
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -921,7 +921,7 @@ l.123 \end{dedicatoria}
 
 ] (./main.toc
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <14.4> on input line 22.
+(Font)              <14.4> on input line 24.
 ) [15] [16
 
 ] (./chapter1.tex) (./chapter2.tex
@@ -960,48 +960,72 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.6}) has b
 l.1 \chapter
             {Clustering Analysis} [6
 
-]) (./chapter4.tex
+]
 pdfTeX warning (ext4): destination with the same identifier (name{page.7}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.1 \chapter
-            {Sample and Data} [7]
+l.18 
+      [7]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
 pdfTeX warning (ext4): destination with the same identifier (name{page.8}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
+l.26 
+      [8]
+<PCA_optimization.png, id=215, 714.7503pt x 424.2249pt>
+File: PCA_optimization.png Graphic file (type png)
+<use PCA_optimization.png>
+Package pdftex.def Info: PCA_optimization.png  used on input line 30.
+(pdftex.def)             Requested size: 364.00139pt x 216.05406pt.
+<clusters_evolution.png, id=218, 936.6192pt x 490.7133pt>
+File: clusters_evolution.png Graphic file (type png)
+<use clusters_evolution.png>
+Package pdftex.def Info: clusters_evolution.png  used on input line 39.
+(pdftex.def)             Requested size: 364.00139pt x 190.71101pt.
+)
+pdfTeX warning (ext4): destination with the same identifier (name{page.9}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.174 
+       [9 <./PCA_Optimization.png> <./clusters_evolution.png>] (./chapter4.tex
+pdfTeX warning (ext4): destination with the same identifier (name{page.10}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
 l.1 \chapter
-            {Sample and Data} [8
-
-]
+            {Sample and Data} [10]
 Overfull \hbox (3.55707pt too wide) in paragraph at lines 9--24
  [][] 
  []
 
 ) (./main.bbl
-pdfTeX warning (ext4): destination with the same identifier (name{page.9}) has been already used, duplicate ignored
+pdfTeX warning (ext4): destination with the same identifier (name{page.11}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.3 ...th{\labelsep}{0pt}\begin{thebibliography}{}
-                                                   [9]
-pdfTeX warning (ext4): destination with the same identifier (name{page.10}) has been already used, duplicate ignored
+                                                   [11
+
+]
+pdfTeX warning (ext4): destination with the same identifier (name{page.12}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.3 ...th{\labelsep}{0pt}\begin{thebibliography}{}
-                                                   [10
+                                                   [12
 
 ]
 bibitemlist
 )
-pdfTeX warning (ext4): destination with the same identifier (name{page.11}) has been already used, duplicate ignored
+pdfTeX warning (ext4): destination with the same identifier (name{page.13}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.188 
-       [11]
-pdfTeX warning (ext4): destination with the same identifier (name{page.12}) has been already used, duplicate ignored
+       [13]
+pdfTeX warning (ext4): destination with the same identifier (name{page.14}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.188 
-       [12
+       [14
 
 ]
 
@@ -1009,23 +1033,18 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `\uppercase' on input line 188.
 
 
-pdfTeX warning (ext4): destination with the same identifier (name{page.13}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.188 
-       [13
-
-]
-pdfTeX warning (ext4): destination with the same identifier (name{page.14}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.188 
-       [14] Excluding 'comment' comment. (./main.ind)
 pdfTeX warning (ext4): destination with the same identifier (name{page.15}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.221 \end{document}
-                     [15
+l.188 
+       [15
+
+]
+pdfTeX warning (ext4): destination with the same identifier (name{page.16}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.188 
+       [16] Excluding 'comment' comment. (./main.ind) [17
 
 ]
 \tf@lof=\write6
@@ -1044,18 +1063,18 @@ L3 programming layer <2020/03/25>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 19228 strings out of 474222
- 306893 string characters out of 5748732
+ 19276 strings out of 474222
+ 307879 string characters out of 5748732
  1939975 words of memory out of 5000000
- 40917 multiletter control sequences out of 15000+600000
- 661035 words of font info for 180 fonts, out of 8000000 for 9000
+ 40946 multiletter control sequences out of 15000+600000
+ 661619 words of font info for 186 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 99i,14n,107p,1037b,626s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 99i,14n,107p,1198b,626s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/share/texmf/fonts/type1/public/lm/lmbx12.pfb></usr/share/texmf/fonts/type1/public/lm/lmex10.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi12.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi8.pfb></usr/share/texmf/fonts/type1/public/lm/lmr10.pfb></usr/share/texmf/fonts/type1/public/lm/lmr12.pfb></usr/share/texmf/fonts/type1/public/lm/lmr6.pfb></usr/share/texmf/fonts/type1/public/lm/lmr7.pfb></usr/share/texmf/fonts/type1/public/lm/lmr8.pfb></usr/share/texmf/fonts/type1/public/lm/lmri10.pfb></usr/share/texmf/fonts/type1/public/lm/lmri12.pfb></usr/share/texmf/fonts/type1/public/lm/lmss10.pfb></usr/share/texmf/fonts/type1/public/lm/lmss12.pfb></usr/share/texmf/fonts/type1/public/lm/lmss17.pfb></usr/share/texmf/fonts/type1/public/lm/lmssbx10.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy10.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy6.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy8.pfb>
-Output written on main.pdf (33 pages, 339579 bytes).
+Output written on main.pdf (35 pages, 443636 bytes).
 PDF statistics:
- 387 PDF objects out of 1000 (max. 8388607)
- 310 compressed objects within 4 object streams
- 73 named destinations out of 1000 (max. 500000)
- 57481 words of extra memory for PDF output out of 61914 (max. 10000000)
+ 422 PDF objects out of 1000 (max. 8388607)
+ 339 compressed objects within 4 object streams
+ 80 named destinations out of 1000 (max. 500000)
+ 57507 words of extra memory for PDF output out of 61914 (max. 10000000)
 

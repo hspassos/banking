@@ -6,7 +6,45 @@ Our objective is to use the clustering analysis to identify groups of financial 
 
 The method used is the k-means clustering algorithm, which is a widely used method for partitioning a dataset into $K$ distinct clusters based on the similarity of the data points. Given a set of observations $X_i$ defined by the balance sheet accounts divided by total assets  of the $i$-th financial institution, the goal is partition the feature space into $K$ subspaces \cite{atheyMachineLearningMethods2019}. 
 
-\section{Principal Component Analysis (PCA)}
-Before doing the cluster segmentetion, one problem to be solved is the high dimensionality of the data. \citeonline{steinbachChallengesClusteringHigh2004} explain that in high dimensionality, the distance between points becomes less meaningful as they become relatively uniform, which can lead to less precise clustering results. In other words, if the financial institutions have many variables (balance sheet accounts), the difference between them become less meanngful and the clusters may not be well defined. The PCA method is an unsupervised method to reduce the dimensionality of the data while retaining as much information as possible. It does this by finding the directions (principal components) that maximize the variance in the data, and then projecting the data onto these directions.
+\section{Data preparation}
 
-The PCA strategy is to decompose the variables into a smaller number of orthogonal components, which are linear combinations of the original variables. 
+The data used are monthly financial statement accounts of financial institutions obtained from the \citeonline{balancetes}. It covers the period from 2010 to 2024 and includes 206 accounts. Most of those accounts are very specific for some institutions, so the data with more than 30\% of missing values were excluded, resulting in 56 accounts. The sample was limited to financial institutions with at least 1 billion reais in credit operations. Since the data is monthly, the value of each variable is the average of the 12 months of the year, institutions that didn't have data for all 12 months were excluded of that year. Then, each variable is divided by the total assets of that institution at that year to make the data comparable across institutions of different sizes. Finally, each variable is standarized with mean zero and standard deviation one.
+
+The database has 3104 observations (financial institution per year) and 56 variables. To exclude outliers of each year, we used the Principal Component Analysis (PCA) method. It was calculated the first 4 principal components for each year and the observations with values higher than 4 standard deviations in any of the first 4 principal components were excluded. This resulted in the final database with 3054 observations.
+
+\section{Principal Component Analysis (PCA)}
+
+The PCA was used in this study in two different ways: first to exclude outliers and then to reduce the dimensionality of the data before applying the k-means clustering algorithm. This method is a multivariate statistical technique for unsupervised learning to reduce the dimensionality of the data while retaining as much information as possible. It does this by finding the directions (principal components) that maximizes the variance explained in the data, and then projecting the data onto these directions. In other perspective, the first principal component is the linear regression that minimizes the orthogonal distance between the data points and the regression line and the other components are defined in the same way but with the restriction that they are orthogonal to the previous components. Ther result is a new set of variables (the principal components) that are uncorrelated and ordered by the amount of variance they explain in the data. The first few principal components can be used to represent the data in a lower-dimensional space, which can be useful for visualization and clustering.
+
+\citeonline{IntroductionStatisticalLearning2023} define the first principal component as regression line that "minimizes of squared perpendicular distances between each point and the line". 
+
+Before the cluster segmentation, one problem to be solved is the high dimensionality of the data. \citeonline{steinbachChallengesClusteringHigh2004} explain that in high dimensionality, the distance between points becomes less meaningful as they become relatively uniform, which can lead to less precise clustering results. In other words, if the financial institutions have many variables (balance sheet accounts), the difference between them become less meaningful and the clusters may not be well defined. The PCA method is an alternative to reduce the dimensionality of the data while retaining as much information as possible.
+
+The PCA method needs to specify the number of principal components (PCs) to retain, which can be determined by looking at the explained variance ratio. The explained variance ratio is the proportion of the total variance in the data that is explained by each principal component. The k-means algorithm also needs to specify the number of clusters $K$, one way to determine the optimal number of clusters is by calculating the silhouette score, which measures how well each data point fits within its assigned cluster compared to other clusters. The silhouette score ranges from -1 to 1, where a score close to 1 indicates that the data point is well matched to its own cluster and poorly matched to neighboring clusters, while a score close to -1 indicates that the data point is poorly matched to its own cluster and may be better assigned to a neighboring cluster.
+
+The number of principal components retained may affect the clusteing results, so the strategy used here is to find the for each $K$ number of clusters the number of principal components that maximizes the silhouette score. The optimal number of clusters is then determined by looking at the silhouette scores for different values of $K$ and selecting the one that yields the highest score. The results are shown in Figure \ref{fig:PCA_optimization}. The chosen $K$ was 5 and the number of principal components retained was 21, which explains 95\% of the variance in the data. The silhouette score for this configuration was 0.209, which indicates that the clusters are reasonably well defined, but there is still some overlap between them. The data has 56 variables that the PCA reduced to 21 principal components retained 90\% of the variance.
+
+
+\begin{figure}[h!] % [h!] força a posição, pode ser [!htb]
+    \centering
+    \includegraphics[width=0.8\textwidth]{PCA_optimization.png} % Ajusta largura
+    \caption{Optimization of PCA Explained Variance for K-Means (5 clusters)}
+    \label{fig:PCA_optimization}
+\end{figure}
+
+After the parameter definitions, the k-means algorithm is applied to the data projected onto the retained principal components resulting in the 5 clusters. The evolution of the clusters over time is shown in Figure \ref{fig:clusters_evolution}. Cluster 1 and 3 are very small.
+
+\begin{figure}[h!] % [h!] força a posição, pode ser [!htb]
+    \centering
+    \includegraphics[width=0.8\textwidth]{clusters_evolution.png} % Ajusta largura
+    \caption{Evolution of Clusters over Time}
+    \label{fig:clusters_evolution}
+\end{figure}
+
+
+
+
+
+\section{k-means clustering}
+
+The k-means algorithm aims to partition the data into $K$ clusters by minimizing the within-cluster sum of squares (WCSS), which is defined as the sum of the squared distances between each data point and the centroid of its assigned cluster. The algorithm starts with an initial set of $K$ centroids, which can be randomly selected from the data points or initialized using a specific method. Then, it iteratively assigns each data point to the nearest centroid and updates the centroids by calculating the mean of the data points in each cluster. This process continues until convergence, which occurs when the assignments no longer change or when a maximum number of iterations is reached.

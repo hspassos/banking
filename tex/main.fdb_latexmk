@@ -1,22 +1,22 @@
 # Fdb version 4
-["bibtex main"] 1777063623.80762 "main.aux" "main.bbl" "main" 1777064194.65747 0
+["bibtex main"] 1778096127.8327 "main.aux" "main.bbl" "main" 1778096129.01578 0
   "./abntex2-alf.bst" 1755018769.79773 60066 2d7d13e0d4ec763ab38bcee7229cfc84 ""
-  "./bibliography.bib" 1777061759.63352 5829 611a0f979d55dff84566c7f8c0979e00 ""
+  "./bibliography.bib" 1778093521.66944 7792 1f51a5ec34db3f704cf99627f68cea56 ""
   "/usr/share/texlive/texmf-dist/bibtex/bib/abntex2/abntex2-options.bib" 1357081713 5396 4eb260dac60f150ae608d45252853090 ""
-  "main.aux" 1777064194.2771 9185 b09c6cc1c92e8b3bbe7d1f1a5c03cfc0 "pdflatex"
+  "main.aux" 1778096128.66489 10971 37935c488de323396e24e6e80268e7c3 "pdflatex"
   (generated)
   "main.bbl"
   "main.blg"
   (rewritten before read)
-["makeindex main.idx"] 1777063328.61014 "main.idx" "main.ind" "main" 1777064194.65734 0
-  "main.idx" 1777064194.0611 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
+["makeindex main.idx"] 1778093784.05135 "main.idx" "main.ind" "main" 1778096129.01567 0
+  "main.idx" 1778096128.34089 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
   (generated)
   "main.ilg"
   "main.ind"
   (rewritten before read)
-["pdflatex"] 1777064193.59182 "/home/hspassos/mestrado/banking/tex/main.tex" "main.pdf" "main" 1777064194.65759 0
+["pdflatex"] 1778096127.93309 "/home/hspassos/mestrado/banking/tex/main.tex" "main.pdf" "main" 1778096129.01587 0
   "/etc/texmf/web2c/texmf.cnf" 1733975436.6578 475 c0e671620eb5563b2130f56340a5fde8 ""
-  "/home/hspassos/mestrado/banking/tex/main.tex" 1776880423.9648 5528 9cbc6b096a7e2d76d1d85d18b8ac6213 ""
+  "/home/hspassos/mestrado/banking/tex/main.tex" 1777933595.37444 5528 9cbc6b096a7e2d76d1d85d18b8ac6213 ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam10.tfm" 1246382020 916 f87d7c45f9c908e672703b83b72241a3 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam5.tfm" 1246382020 924 9904cf1d39e9767e7a3622f2a125a565 ""
@@ -188,18 +188,20 @@
   "/usr/share/texmf/web2c/texmf.cnf" 1707919699 40399 f2c302f7d2af602abb742093540a5834 ""
   "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1734893445.50989 5472669 54eaf61a88b6b7896ebd0dac973cb29c ""
   "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1734893529 8214149 0256d6a1275364900a79a0193c40d020 ""
+  "PCA_Optimization.png" 1777401698.84635 60786 f1a3ca3112e53bc6669e842ee282d451 ""
   "chapter1.tex" 1775499833.15187 1425 58e7783a26db71619da96b199024fae8 ""
   "chapter2.tex" 1755633922.17381 5748 c99f44d1c6ed907dc7d0a5bfe5335a3a ""
-  "chapter3.tex" 1777064193.3531 2381 5f3471e202443f164b90702ebcf46a2d ""
+  "chapter3.tex" 1778096126.43689 7937 d41c84f0a9ba041d337fe8876317a042 ""
   "chapter4.tex" 1761946511.52373 1503 74c305bea0021ea243937580bf5620c4 ""
-  "main.aux" 1777064194.2771 9185 b09c6cc1c92e8b3bbe7d1f1a5c03cfc0 "pdflatex"
-  "main.bbl" 1777063623.9092 2557 9fdd447066e16963aa412c3f6bffa442 "bibtex main"
-  "main.ind" 1777063328.69726 0 d41d8cd98f00b204e9800998ecf8427e "makeindex main.idx"
-  "main.lof" 1777064194.2811 59 e432f59b0ceabbfc612531c7cd147396 "pdflatex"
-  "main.lot" 1777064194.2811 158 122f365db03ce4f6c61ff952ff113a3f "pdflatex"
-  "main.tex" 1776880423.9648 5528 9cbc6b096a7e2d76d1d85d18b8ac6213 ""
-  "main.toc" 1777064194.2811 2018 d73fd409ca28e0dfefab96b4f3b30db5 "pdflatex"
-  "preambulo.tex" 1761857411.70721 3114 73832d504f6869b72f6cb461e2d339b8 ""
+  "clusters_evolution.png" 1777403673.64992 58811 c1adb09e08292872c4bb376876c62742 ""
+  "main.aux" 1778096128.66489 10971 37935c488de323396e24e6e80268e7c3 "pdflatex"
+  "main.bbl" 1778096127.92489 3202 44e3f09771ebd53ca722539ddb843345 "bibtex main"
+  "main.ind" 1778093784.23335 0 d41d8cd98f00b204e9800998ecf8427e "makeindex main.idx"
+  "main.lof" 1778096128.66489 297 dc7f83d74702a3e41aa7b53d22ae2f71 "pdflatex"
+  "main.lot" 1778096128.66489 159 287f90e8fd18fe67215aa7b5e2f9973f "pdflatex"
+  "main.tex" 1777933595.37444 5528 9cbc6b096a7e2d76d1d85d18b8ac6213 ""
+  "main.toc" 1778096128.66489 2174 8fb7a22bcf53a12979c0dc5f344fb0da "pdflatex"
+  "preambulo.tex" 1778014104.06225 3130 3f82f000339f4b632bfa96e4412782e9 ""
   (generated)
   "main.aux"
   "main.idx"
