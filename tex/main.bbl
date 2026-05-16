@@ -5,11 +5,27 @@
 \providecommand{\abntbstabout}[1]{}
 \abntbstabout{v-1.9.7 }
 
+\bibitem[ANBIMA]{anbimaIDkAANBIMA}
+\abntrefinfo{ANBIMA}{ANBIMA}{}
+{ANBIMA. \emph{{IDkA -- ANBIMA}}. Https://www.anbima.com.br/pt\_br/informar/precos-e-indices/indices/idka.htm.}
+
+\bibitem[{ANBIMA}]{IndicesANBIMAData}
+\abntrefinfo{{ANBIMA}}{{ANBIMA}}{}
+{{ANBIMA}. \emph{\'Indices \textbar{} {{ANBIMA Data}}}. Https://data.anbima.com.br/indices.}
+
 \bibitem[Athey and Imbens 2019]{atheyMachineLearningMethods2019}
 \abntrefinfo{Athey and Imbens}{ATHEY; IMBENS}{2019}
 {ATHEY, S.; IMBENS, G.~W. Machine {{Learning Methods That Economists Should Know About}}.
 \emph{Annual Review of Economics}, v.~11, n.~1, p. 685--725, ago. 2019.
 ISSN 1941-1383, 1941-1391.}
+
+\bibitem[{Banco Central do Brasil} 2017]{resolucao_bcb}
+\abntrefinfo{{Banco Central do Brasil}}{{Banco Central do Brasil}}{2017}
+{{Banco Central do Brasil}. \emph{{{RESOLU\c C\~AO Nº}} 4.553}. 2017.}
+
+\bibitem[{Banco Central do Brasil} 2018]{resolucao_bcb2}
+\abntrefinfo{{Banco Central do Brasil}}{{Banco Central do Brasil}}{2018}
+{{Banco Central do Brasil}. \emph{{{RESOLU\c C\~AO Nº}} 4.656}. 2018.}
 
 \bibitem[{Banco Central do Brasil} 2025]{balancetes}
 \abntrefinfo{{Banco Central do Brasil}}{{Banco Central do Brasil}}{2025a}

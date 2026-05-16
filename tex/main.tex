@@ -195,6 +195,24 @@ The expected utility of wealth is given by the equation:
 
 This function based on the assumption that the agents are risk averse, which is mathematically represented as a concave function, which is defined by the condition: $E[U(W)] < U(E[W])$. \citeonline{ingersoll1987} shows that 
 
+
+\chapter{Interest rate volatility estimation with IDkA}
+
+$IDkA$ \cite{anbimaIDkAANBIMA} is a set of indices that measure the behavior of synthetic portfolios of federal government bonds with a constant maturity. They are calculated by ANBIMA (Brazilian Association of Financial and Capital Markets Entities) using selected vertices of the yield curve of Brazilian government bonds. The indices are calculated for maturities of 3 months, 1 year, 2 years, 3 years, and 5 years.
+
+The index is calculated using the following formula:
+\begin{equation}
+  IDkA_t = IDkA_{t-1} \frac{(r_{t-1}^n + 1)^{\frac{n}{252}}}{(r_{t}^{n-1} + 1)^{\frac{n-1}{252}}}
+\end{equation}
+
+where $IDkA_t$ is the index at time $t$, $IDkA_{t-1}$ is the index at time $t-1$ and $r_t^n$ is the interest rate of the bond with maturity $n$ at time $t$. Since the government bonds yield curve past data was not available but $IDkA$ database is disclosed by ANBIMA \cite{IndicesANBIMAData}. We used the index index data ($IDkA_t$ and $IDkA_{t-1}$) and the yield curve values ($r_t$)at 11/04/2025 and manipulated the formula to obtain the interest rate from the previous day:
+
+\begin{equation}
+  r_{t}^{n-1} = \left( \frac{IDkA_{t-1}}{IDkA_t} (r_{t-1}^n + 1)^{\frac{n}{252}} \right)^{\frac{252}{n}} - 1
+\end{equation}
+
+The, we repeated the process for all the available data to obtain the interest rate time series and then calculated the volatility using the standard deviation of the log returns of the interest rates:
+
 \end{apendicesenv}
 % ---
 
