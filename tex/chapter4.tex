@@ -1,27 +1,30 @@
 \chapter{Sample and Data}
 
-The data used in the first stage are published by \citeonline{financialdata}
-The variables used in the first stage of the model for the bank $i$ in the period $t$ are:
+The empirical model is based on \citeonline{maudosFactorsExplainingInterest2004}. It is a single stage model and the variables used are shown in Table \ref{table:1}.
 
-\begin{table}[h!]
+\begin{sidewaystable}[h!]
     \centering
     \renewcommand{\arraystretch}{2.5} % Espaçamento entre linhas
     \begin{tabular}{ l l c }
     \hline
     Variable & Name & Financial Statement Accounts \\ [0.5ex] 
     \hline\hline
-    $\textit{spread}_{it}$ & Net Income Margin & $\dfrac{\textit{Interest Income} - \textit{Interest Expense}}{\textit{Interest Bearing Assets}}$ \\ 
-    $\textit{nibd}_{it}$ & Non Interest Bearing Deposits & $\dfrac{\textit{Demand Deposits}}{\textit{Deposits}}$ \\ 
-    $\textit{ibf}_{it}$ & Interest Bearing Funds & $\dfrac{\textit{Interest Bearing Funds}}{\textit{Total Earning Assets}}$ \\
-    $\textit{lever}_{it}$ & Leverage & $\dfrac{\text{Total Liability}}{\textit{Total Equity}}$ \\ 
-    $\textit{opc}_{it}$ & Operational costs & $\dfrac{\textit{Operational Costs}}{\textit{Total Assets}}$ \\ 
-    $\textit{liquid}_{it}$ & Liquidity & $\dfrac{\textit{Liquid Assets}}{\textit{Short Term Liabilities}}$ \\ 
-    $\textit{servr}_{it}$ & Service Revenue & $\dfrac{\textit{Service Income}}{\textit{Operating Income}}$ \\ 
-    $\textit{mktsh}_{it}$ & Market Share & $\dfrac{\textit{Total Credit Operations of Bank i at time t}}{\textit{Total Credit Operations at time t}}$ \\ 
+    $\textit{nim}$ & Net Income Margin & $\dfrac{\textit{Operating Revenue} - \textit{Capital Raising Cost}}{\textit{Realizable Assets}}$ \\ 
+    $\textit{hhi}$ & HHI Index & $\sum_{i=1}^n{(market share_i)^2}$ \\ 
+    $\textit{aoc}$ & Average Operating Costs & $\dfrac{\textit{Operating Costs}}{\textit{Total Assets}}$ \\
+    $\textit{riskaver}$ & Risk Aversion & $\dfrac{\text{Total Equity}}{\textit{Total Assets}}$ \\ 
+    $\textit{sd}$ & Volatility of market interest rates \\ 
+    $\textit{crerisk}$ & Credit Risk & $\dfrac{\textit{provisions for credit operations}}{\textit{Total Credit Operations}}$ \\ 
+    $\textit{sd*crerisk}$ & Interaction between credit risk and market risk & $sd \times crerisk$ \\ 
+    $\textit{size}$ & Average size of operations & $\log_{10}(\textit{Total Credit Operations})$ \\
+    $\textit{iip}$ & Implicit interest payments & $\dfrac{\textit{Operating Costs} - \textit{Services Income}}{\textit{Total Assets}}$ \\ 
+    $\textit{reser}$ & Opportunity costs of bank reserves & $\dfrac{\textit{Cash and Cash Equivalents} - \textit{Interbank Liquid Investments}}{\textit{Total Assets}}$ \\ 
+    $\textit{ef}$ & Implicit interest payments & $\dfrac{\textit{Operating Costs}}{\textit{Operating Revenue}}$ \\ 
     [1ex] 
     \hline
     \end{tabular}
-\caption{List of variables - 1st stage}
+\caption{List of variables used in the empirical model}
 \label{table:1}
-\end{table}
+\end{sidewaystable}
 
+\input{tabela_resultados.tex}

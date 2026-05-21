@@ -1,20 +1,20 @@
 # Fdb version 4
-["bibtex main"] 1778785179.12376 "main.aux" "main.bbl" "main" 1778785249.14818 0
+["bibtex main"] 1779219764.06783 "main.aux" "main.bbl" "main" 1779219765.41848 0
   "./abntex2-alf.bst" 1755018769.79773 60066 2d7d13e0d4ec763ab38bcee7229cfc84 ""
-  "./bibliography.bib" 1778782996.84173 8719 711aea661c0fbb2095b348accdfad995 ""
+  "./bibliography.bib" 1779214899.34665 9244 26493d24d556cb00a53e6e0758f58ace ""
   "/usr/share/texlive/texmf-dist/bibtex/bib/abntex2/abntex2-options.bib" 1357081713 5396 4eb260dac60f150ae608d45252853090 ""
-  "main.aux" 1778785248.78123 12774 fbee5e4c6871125ea137184ff756f8cc "pdflatex"
+  "main.aux" 1779219765.04089 12924 0047bbf723b18c686e933e164bddb81a "pdflatex"
   (generated)
   "main.bbl"
   "main.blg"
   (rewritten before read)
-["makeindex main.idx"] 1778785177.65977 "main.idx" "main.ind" "main" 1778785249.14807 0
-  "main.idx" 1778785248.41723 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
+["makeindex main.idx"] 1779219762.76272 "main.idx" "main.ind" "main" 1779219765.41837 0
+  "main.idx" 1779219764.65289 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
   (generated)
   "main.ilg"
   "main.ind"
   (rewritten before read)
-["pdflatex"] 1778785247.95358 "/home/hspassos/mestrado/banking/tex/main.tex" "main.pdf" "main" 1778785249.14826 0
+["pdflatex"] 1779219764.18302 "/home/hspassos/mestrado/banking/tex/main.tex" "main.pdf" "main" 1779219765.41857 0
   "/etc/texmf/web2c/texmf.cnf" 1733975436.6578 475 c0e671620eb5563b2130f56340a5fde8 ""
   "/home/hspassos/mestrado/banking/tex/main.tex" 1778785247.69723 7013 0f1374d0f6f44d2c0f97bcc4e9d5c9c6 ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
@@ -83,6 +83,7 @@
   "/usr/share/texlive/texmf-dist/tex/latex/graphics/graphicx.sty" 1654720880 8010 a8d949cbdbc5c983593827c9eec252e1 ""
   "/usr/share/texlive/texmf-dist/tex/latex/graphics/keyval.sty" 1654720880 2671 7e67d78d9b88c845599a85b2d41f2e39 ""
   "/usr/share/texlive/texmf-dist/tex/latex/graphics/mathcolor.ltx" 1667332637 2885 9c645d672ae17285bba324998918efd8 ""
+  "/usr/share/texlive/texmf-dist/tex/latex/graphics/rotating.sty" 1654720880 7060 497c495d7b832441a479571bbce898ae ""
   "/usr/share/texlive/texmf-dist/tex/latex/graphics/trig.sty" 1654720880 4023 293ea1c16429fc0c4cf605f4da1791a9 ""
   "/usr/share/texlive/texmf-dist/tex/latex/hycolor/hycolor.sty" 1580250785 17914 4c28a13fc3d975e6e81c9bea1d697276 ""
   "/usr/share/texlive/texmf-dist/tex/latex/hyperref/hpdftex.def" 1705871765 48154 e46bf8adeb936500541441171d61726d ""
@@ -195,17 +196,18 @@
   "PCA_Optimization.png" 1778527652.38395 67272 1ee737276828615d9d778a8037aad748 ""
   "chapter1.tex" 1775499833.15187 1425 58e7783a26db71619da96b199024fae8 ""
   "chapter2.tex" 1755633922.17381 5748 c99f44d1c6ed907dc7d0a5bfe5335a3a ""
-  "chapter3.tex" 1778615940.10016 10578 650365dd7b302e075d5b00b04f703438 ""
-  "chapter4.tex" 1761946511.52373 1503 74c305bea0021ea243937580bf5620c4 ""
+  "chapter3.tex" 1779214616.66276 10581 1ce9f0a17aaf48bea9b40626502b88de ""
+  "chapter4.tex" 1779219762.48889 1822 8cb2d550367dd7c5a024e96703b927b0 ""
   "clusters_evolution.png" 1778614280.72854 74774 34418637f4cff0147f02907a456a87c9 ""
-  "main.aux" 1778785248.78123 12774 fbee5e4c6871125ea137184ff756f8cc "pdflatex"
-  "main.bbl" 1778785179.22125 3953 552d989c530b46c9b2e238328c62ecb5 "bibtex main"
-  "main.ind" 1778785177.74925 0 d41d8cd98f00b204e9800998ecf8427e "makeindex main.idx"
-  "main.lof" 1778785248.78523 298 127232be29a366bf212f8f8c63a1cb58 "pdflatex"
-  "main.lot" 1778785248.78523 159 ceeb855a4686e5ed0dc0d641cce708ad "pdflatex"
+  "main.aux" 1779219765.04089 12924 0047bbf723b18c686e933e164bddb81a "pdflatex"
+  "main.bbl" 1779219764.17289 4004 7d5ca1cc85754f069133f06ac727b00b "bibtex main"
+  "main.ind" 1779219762.85289 0 d41d8cd98f00b204e9800998ecf8427e "makeindex main.idx"
+  "main.lof" 1779219765.04889 298 127232be29a366bf212f8f8c63a1cb58 "pdflatex"
+  "main.lot" 1779219765.04889 175 aa6d8044ce1a8487f72d1ac1edc1faa5 "pdflatex"
   "main.tex" 1778785247.69723 7013 0f1374d0f6f44d2c0f97bcc4e9d5c9c6 ""
-  "main.toc" 1778785248.78523 2503 fe78c0732c84350c8a4eb576eef3f557 "pdflatex"
-  "preambulo.tex" 1778100872.97913 3130 3f82f000339f4b632bfa96e4412782e9 ""
+  "main.toc" 1779219765.04889 2503 0fc86c490a9f0814756c09de2918effe "pdflatex"
+  "preambulo.tex" 1779215220.57054 3190 4c0227e121fbc256e345f0bc73d9227e ""
+  "tabela_resultados.tex" 1779219704.22891 4205 7392e8587416b1e6624da5dca9ebb281 ""
   (generated)
   "main.aux"
   "main.idx"

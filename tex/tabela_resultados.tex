@@ -1,0 +1,48 @@
+\begin{center}
+\begin{tabular}{lclc}
+\toprule
+\textbf{Dep. Variable:}    &        nim         & \textbf{  R-squared:         }   &      0.4615      \\
+\textbf{Estimator:}        &      PanelOLS      & \textbf{  R-squared (Between):}  &      0.6613      \\
+\textbf{No. Observations:} &        3150        & \textbf{  R-squared (Within):}   &      0.3206      \\
+\textbf{Date:}             &  Tue, May 19 2026  & \textbf{  R-squared (Overall):}  &      0.4663      \\
+\textbf{Time:}             &      16:26:38      & \textbf{  Log-likelihood     }   &    -1.221e+04    \\
+\textbf{Cov. Estimator:}   &     Clustered      & \textbf{                     }   &                  \\
+\textbf{}                  &                    & \textbf{  F-statistic:       }   &      223.03      \\
+\textbf{Entities:}         &        363         & \textbf{  P-value            }   &      0.0000      \\
+\textbf{Avg Obs:}          &       8.6777       & \textbf{  Distribution:      }   &    F(12,3123)    \\
+\textbf{Min Obs:}          &       1.0000       & \textbf{                     }   &                  \\
+\textbf{Max Obs:}          &       15.000       & \textbf{  F-statistic (robust):} &      40.263      \\
+\textbf{}                  &                    & \textbf{  P-value            }   &      0.0000      \\
+\textbf{Time periods:}     &         15         & \textbf{  Distribution:      }   &    F(12,3123)    \\
+\textbf{Avg Obs:}          &       210.00       & \textbf{                     }   &                  \\
+\textbf{Min Obs:}          &       160.00       & \textbf{                     }   &                  \\
+\textbf{Max Obs:}          &       275.00       & \textbf{                     }   &                  \\
+\textbf{}                  &                    & \textbf{                     }   &                  \\
+\bottomrule
+\end{tabular}
+\begin{tabular}{lcccccc}
+                           & \textbf{Parameter} & \textbf{Std. Err.} & \textbf{T-stat} & \textbf{P-value} & \textbf{Lower CI} & \textbf{Upper CI}  \\
+\midrule
+\textbf{const}             &      -26.595       &       11.046       &     -2.4077     &      0.0161      &      -48.253      &      -4.9374       \\
+\textbf{crerisk}           &      -0.0145       &       0.0332       &     -0.4351     &      0.6635      &      -0.0796      &       0.0507       \\
+\textbf{sd\_3m*crerisk}    &       1.0937       &       0.8717       &      1.2546     &      0.2097      &      -0.6156      &       2.8029       \\
+\textbf{sd\_3anos*crerisk} &      -0.0122       &       0.0172       &     -0.7082     &      0.4789      &      -0.0458      &       0.0215       \\
+\textbf{size}              &      -1.6780       &       0.6396       &     -2.6234     &      0.0087      &      -2.9321      &      -0.4238       \\
+\textbf{riskaver}          &      -0.0902       &       0.0342       &     -2.6354     &      0.0084      &      -0.1573      &      -0.0231       \\
+\textbf{aoc}               &       2.2743       &       0.5140       &      4.4247     &      0.0000      &       1.2665      &       3.2822       \\
+\textbf{ef}                &      -0.0466       &       0.0146       &     -3.1855     &      0.0015      &      -0.0753      &      -0.0179       \\
+\textbf{iip}               &       1.3048       &       0.5021       &      2.5986     &      0.0094      &       0.3203      &       2.2894       \\
+\textbf{Cluster\_0}        &       50.714       &       11.984       &      4.2319     &      0.0000      &       27.217      &       74.211       \\
+\textbf{Cluster\_1}        &       43.440       &       11.434       &      3.7990     &      0.0001      &       21.020      &       65.860       \\
+\textbf{Cluster\_2}        &       46.558       &       12.797       &      3.6383     &      0.0003      &       21.467      &       71.648       \\
+\textbf{Cluster\_4}        &       45.073       &       10.981       &      4.1045     &      0.0000      &       23.541      &       66.604       \\
+\bottomrule
+\end{tabular}
+%\caption{PanelOLS Estimation Summary}
+\end{center}
+
+F-test for Poolability: 0.5890 \newline
+ P-value: 0.8758 \newline
+ Distribution: F(14,3123) \newline
+  \newline
+ Included effects: Time
