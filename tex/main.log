@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2024.12.22)  19 MAY 2026 16:42
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2024.12.22)  25 MAY 2026 22:03
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -982,7 +982,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.8}) has b
                    \relax 
 l.27 
       [8]
-<PCA_optimization.png, id=218, 715.473pt x 426.393pt>
+<PCA_optimization.png, id=221, 715.473pt x 426.393pt>
 File: PCA_optimization.png Graphic file (type png)
 <use PCA_optimization.png>
 Package pdftex.def Info: PCA_optimization.png  used on input line 35.
@@ -996,22 +996,28 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.9}) has b
                    \relax 
 l.43 
       [9 <./PCA_Optimization.png>]
-<clusters_evolution.png, id=225, 936.6192pt x 490.7133pt>
+<clusters_evolution.png, id=228, 1152.7065pt x 570.933pt>
 File: clusters_evolution.png Graphic file (type png)
 <use clusters_evolution.png>
 Package pdftex.def Info: clusters_evolution.png  used on input line 48.
-(pdftex.def)             Requested size: 364.00139pt x 190.71101pt.
+(pdftex.def)             Requested size: 364.00139pt x 180.28914pt.
 
 pdfTeX warning (ext4): destination with the same identifier (name{page.10}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.56 
-      [10 <./clusters_evolution.png>]) (./chapter4.tex
+l.58 
+      [10 <./clusters_evolution.png>]
+<cluster_mkshare.png, id=241, 1152.7065pt x 570.933pt>
+File: cluster_mkshare.png Graphic file (type png)
+<use cluster_mkshare.png>
+Package pdftex.def Info: cluster_mkshare.png  used on input line 61.
+(pdftex.def)             Requested size: 364.00139pt x 180.28914pt.
+) (./chapter4.tex
 pdfTeX warning (ext4): destination with the same identifier (name{page.11}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.1 \chapter
-            {Sample and Data} [11]
+            {Sample and Data} [11 <./cluster_mkshare.png>]
 pdfTeX warning (ext4): destination with the same identifier (name{page.12}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
@@ -1102,18 +1108,18 @@ L3 programming layer <2020/03/25>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 19449 strings out of 474222
- 311149 string characters out of 5748732
+ 19458 strings out of 474222
+ 311361 string characters out of 5748732
  1947975 words of memory out of 5000000
- 41077 multiletter control sequences out of 15000+600000
+ 41085 multiletter control sequences out of 15000+600000
  662933 words of font info for 196 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 99i,16n,107p,1037b,626s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 99i,16n,107p,1122b,626s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/share/texmf/fonts/type1/public/lm/lmbx12.pfb></usr/share/texmf/fonts/type1/public/lm/lmex10.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi12.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi6.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi8.pfb></usr/share/texmf/fonts/type1/public/lm/lmr10.pfb></usr/share/texmf/fonts/type1/public/lm/lmr12.pfb></usr/share/texmf/fonts/type1/public/lm/lmr6.pfb></usr/share/texmf/fonts/type1/public/lm/lmr7.pfb></usr/share/texmf/fonts/type1/public/lm/lmr8.pfb></usr/share/texmf/fonts/type1/public/lm/lmri10.pfb></usr/share/texmf/fonts/type1/public/lm/lmri12.pfb></usr/share/texmf/fonts/type1/public/lm/lmss10.pfb></usr/share/texmf/fonts/type1/public/lm/lmss12.pfb></usr/share/texmf/fonts/type1/public/lm/lmss17.pfb></usr/share/texmf/fonts/type1/public/lm/lmssbx10.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy10.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy6.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy8.pfb>
-Output written on main.pdf (41 pages, 483961 bytes).
+Output written on main.pdf (41 pages, 567203 bytes).
 PDF statistics:
- 480 PDF objects out of 1000 (max. 8388607)
- 388 compressed objects within 4 object streams
- 93 named destinations out of 1000 (max. 500000)
- 59563 words of extra memory for PDF output out of 61914 (max. 10000000)
+ 486 PDF objects out of 1000 (max. 8388607)
+ 392 compressed objects within 4 object streams
+ 94 named destinations out of 1000 (max. 500000)
+ 59568 words of extra memory for PDF output out of 61914 (max. 10000000)
 

@@ -46,13 +46,28 @@ After the parameter definitions, the k-means algorithm is applied to the data pr
 \begin{figure}[h!] % [h!] força a posição, pode ser [!htb]
     \centering
     \includegraphics[width=0.8\textwidth]{clusters_evolution.png} % Ajusta largura
-    \caption{Evolution of Clusters over Time}
+    \caption{Evolution of Clusters over Time (by number of institutions)}
     \label{fig:clusters_evolution}
 \end{figure}
 
 Before 2018, one category of financial institutions known as "sociedade de crédito ao microempreendedor e à Empresa de Pequeno Porte" (SCMEPP) did not have it's financial statements disclosed, this changed after a Central Bank's resolution that made the disclosure mandatory \cite{resolucao_bcb}. So in the the data we can see a signifiant increase in the number of institutions in cluster 4 after 2018, which is the cluster that contains most of the SCMEPPs. Also in 2018, the, it was created the "sociedade de crédito direto" (SCD), which is a new type of financial institution that operates exclusively through digital platforms and has a more flexible regulatory framework \cite{resolucao_bcb2}. The SCDs start appearing in the data in 2019 and are only 52 institutions, but they are growing rapidly wth only one in 2019, 34 in 2023 and 39 in 2024.
 
-The cluster 0 is the most stable over time, with a consistent number of institutions throughout the years. Banks are 84.8\% of the institutions in this cluster, and they are the largest financial institutions in terms of total assets. Cluster 3 was empty until 2020 and is somposed by SCDs, it represents a very small group of institutions and may be a result of changes in regulation and the emergence of new types of financial institutions. 
+Cluster 3 was empty until 2020 and is composed by SCDs, it represents a very small group of institutions and may be a result of changes in regulation and the emergence of new types of financial institutions. 
+
+The cluster 0 is the most stable over time, with a consistent number of institutions throughout the years. Banks are 78\% of the institutions in this cluster, and they are the largest financial institutions in terms of total assets. Considering the total volume of credit operations in each year, the institutions in cluster 0 are responsible for around 84\% to 91\% of the total credit operations in each year of the data. Only the  top 6 institutions in terms of credit operations are responsible for around 70\% of the total credit operations in each year and all of them are in cluster 0. But even excluding the top 6 institutions, cluster 0 still has the biggest share of credit aoperations as shown in Figure \ref{fig:cluster_mkshare}. This indicates that cluster 0 is the most dominant cluster in terms of credit operations, even when excluding the largest institutions. The other clusters have a much smaller share of credit operations, with cluster 2 being the second largest but still significantly smaller than cluster 0.
+
+\begin{figure}[h!] % [h!] força a posição, pode ser [!htb]
+    \centering
+    \includegraphics[width=0.8\textwidth]{cluster_mkshare.png} % Ajusta largura
+    \caption{Evolution of Clusters Market Share (Excluding Top 6 Institutions for each year)}
+    \label{fig:cluster_mkshare}
+\end{figure}
+
+Cluster 1 is 
+
+Cluster 2 is the second biggest cluster and is composed by Institutions more specialized in credit, with a higher ratio of credit operations over total assets. The cluster is composed mostly by banks, but also has a significant share of finance companies. 
+
+Cluster 4 is the one which absorbed most of the SCMEPPs after 2018, it is composed mostly by finance companies and has a higher share of credit operations over total assets than cluster 0, but lower than cluster 2. It has more risky credit operations classified as "level h" and "level f" in the data, which are operations with higher risk of default. It also has the higher ratio of credit provisions over credit operations.
 
 Clusters 1 and 2 
 
