@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2024.12.22)  25 MAY 2026 22:03
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2024.12.22)  1 JUN 2026 17:03
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -982,7 +982,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.8}) has b
                    \relax 
 l.27 
       [8]
-<PCA_optimization.png, id=221, 715.473pt x 426.393pt>
+<PCA_optimization.png, id=223, 715.473pt x 426.393pt>
 File: PCA_optimization.png Graphic file (type png)
 <use PCA_optimization.png>
 Package pdftex.def Info: PCA_optimization.png  used on input line 35.
@@ -996,7 +996,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.9}) has b
                    \relax 
 l.43 
       [9 <./PCA_Optimization.png>]
-<clusters_evolution.png, id=228, 1152.7065pt x 570.933pt>
+<clusters_evolution.png, id=230, 1152.7065pt x 570.933pt>
 File: clusters_evolution.png Graphic file (type png)
 <use clusters_evolution.png>
 Package pdftex.def Info: clusters_evolution.png  used on input line 48.
@@ -1007,11 +1007,20 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.10}) has 
                    \relax 
 l.58 
       [10 <./clusters_evolution.png>]
-<cluster_mkshare.png, id=241, 1152.7065pt x 570.933pt>
+<cluster_mkshare.png, id=243, 1152.7065pt x 570.933pt>
 File: cluster_mkshare.png Graphic file (type png)
 <use cluster_mkshare.png>
 Package pdftex.def Info: cluster_mkshare.png  used on input line 61.
 (pdftex.def)             Requested size: 364.00139pt x 180.28914pt.
+<cluster_risk_composition.png, id=244, 1146.9249pt x 567.3195pt>
+File: cluster_risk_composition.png Graphic file (type png)
+<use cluster_risk_composition.png>
+Package pdftex.def Info: cluster_risk_composition.png  used on input line 75.
+(pdftex.def)             Requested size: 364.00139pt x 180.04836pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
 ) (./chapter4.tex
 pdfTeX warning (ext4): destination with the same identifier (name{page.11}) has been already used, duplicate ignored
 <to be read again> 
@@ -1022,9 +1031,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.12}) has 
 <to be read again> 
                    \relax 
 l.1 \chapter
-            {Sample and Data} [12
-
-]
+            {Sample and Data} [12 <./cluster_risk_composition.png>]
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
@@ -1046,7 +1053,9 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.13}) has 
 <to be read again> 
                    \relax 
 l.176 
-       [13] (./main.bbl
+       [13
+
+] (./main.bbl
 pdfTeX warning (ext4): destination with the same identifier (name{page.14}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
@@ -1108,18 +1117,18 @@ L3 programming layer <2020/03/25>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 19458 strings out of 474222
- 311361 string characters out of 5748732
+ 19469 strings out of 474222
+ 311667 string characters out of 5748732
  1947975 words of memory out of 5000000
- 41085 multiletter control sequences out of 15000+600000
- 662933 words of font info for 196 fonts, out of 8000000 for 9000
+ 41093 multiletter control sequences out of 15000+600000
+ 663024 words of font info for 197 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  99i,16n,107p,1122b,626s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/share/texmf/fonts/type1/public/lm/lmbx12.pfb></usr/share/texmf/fonts/type1/public/lm/lmex10.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi12.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi6.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi8.pfb></usr/share/texmf/fonts/type1/public/lm/lmr10.pfb></usr/share/texmf/fonts/type1/public/lm/lmr12.pfb></usr/share/texmf/fonts/type1/public/lm/lmr6.pfb></usr/share/texmf/fonts/type1/public/lm/lmr7.pfb></usr/share/texmf/fonts/type1/public/lm/lmr8.pfb></usr/share/texmf/fonts/type1/public/lm/lmri10.pfb></usr/share/texmf/fonts/type1/public/lm/lmri12.pfb></usr/share/texmf/fonts/type1/public/lm/lmss10.pfb></usr/share/texmf/fonts/type1/public/lm/lmss12.pfb></usr/share/texmf/fonts/type1/public/lm/lmss17.pfb></usr/share/texmf/fonts/type1/public/lm/lmssbx10.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy10.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy6.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy8.pfb>
-Output written on main.pdf (41 pages, 567203 bytes).
+Output written on main.pdf (41 pages, 653517 bytes).
 PDF statistics:
- 486 PDF objects out of 1000 (max. 8388607)
- 392 compressed objects within 4 object streams
- 94 named destinations out of 1000 (max. 500000)
- 59568 words of extra memory for PDF output out of 61914 (max. 10000000)
+ 490 PDF objects out of 1000 (max. 8388607)
+ 394 compressed objects within 4 object streams
+ 95 named destinations out of 1000 (max. 500000)
+ 59573 words of extra memory for PDF output out of 61914 (max. 10000000)
 

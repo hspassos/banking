@@ -1,20 +1,20 @@
 # Fdb version 4
-["bibtex main"] 1779743913.19019 "main.aux" "main.bbl" "main" 1779757413.58522 0
+["bibtex main"] 1780341047.25921 "main.aux" "main.bbl" "main" 1780344239.11671 0
   "./abntex2-alf.bst" 1755018769.79773 60066 2d7d13e0d4ec763ab38bcee7229cfc84 ""
   "./bibliography.bib" 1779546298.30661 9244 26493d24d556cb00a53e6e0758f58ace ""
   "/usr/share/texlive/texmf-dist/bibtex/bib/abntex2/abntex2-options.bib" 1357081713 5396 4eb260dac60f150ae608d45252853090 ""
-  "main.aux" 1779757413.13648 13308 00042adca6306aab4c2a0d661e8ac6dd "pdflatex"
+  "main.aux" 1780344238.22851 13611 7470f92928386612dc9d5d6889ac2353 "pdflatex"
   (generated)
   "main.bbl"
   "main.blg"
   (rewritten before read)
-["makeindex main.idx"] 1779219762.76272 "main.idx" "main.ind" "main" 1779757413.58506 0
-  "main.idx" 1779757412.55648 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
+["makeindex main.idx"] 1779219762.76272 "main.idx" "main.ind" "main" 1780344239.11642 0
+  "main.idx" 1780344236.87251 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
   (generated)
   "main.ilg"
   "main.ind"
   (rewritten before read)
-["pdflatex"] 1779757412.00372 "/home/hspassos/mestrado/banking/tex/main.tex" "main.pdf" "main" 1779757413.58536 0
+["pdflatex"] 1780344235.83793 "/home/hspassos/mestrado/banking/tex/main.tex" "main.pdf" "main" 1780344239.11692 0
   "/etc/texmf/web2c/texmf.cnf" 1733975436.6578 475 c0e671620eb5563b2130f56340a5fde8 ""
   "/home/hspassos/mestrado/banking/tex/main.tex" 1778785247.69723 7013 0f1374d0f6f44d2c0f97bcc4e9d5c9c6 ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
@@ -196,17 +196,18 @@
   "PCA_Optimization.png" 1778527652.38395 67272 1ee737276828615d9d778a8037aad748 ""
   "chapter1.tex" 1775499833.15187 1425 58e7783a26db71619da96b199024fae8 ""
   "chapter2.tex" 1755633922.17381 5748 c99f44d1c6ed907dc7d0a5bfe5335a3a ""
-  "chapter3.tex" 1779757411.72448 12405 994135e36ab967100d549865d6777584 ""
+  "chapter3.tex" 1780344233.01251 12886 23c2a2686896766ec479d9eaf890b305 ""
   "chapter4.tex" 1779219762.48889 1822 8cb2d550367dd7c5a024e96703b927b0 ""
   "cluster_mkshare.png" 1779744948.1085 92918 3f68240f6360fbe0c9a761a9a559ad5e ""
+  "cluster_risk_composition.png" 1780340909.10454 130223 d66e3b3d9b43cebe725a05411125d56c ""
   "clusters_evolution.png" 1779744935.8965 92980 db1c430cff639b0daf41cfb9d3552f71 ""
-  "main.aux" 1779757413.13648 13308 00042adca6306aab4c2a0d661e8ac6dd "pdflatex"
-  "main.bbl" 1779743913.30849 4004 7d5ca1cc85754f069133f06ac727b00b "bibtex main"
+  "main.aux" 1780344238.22851 13611 7470f92928386612dc9d5d6889ac2353 "pdflatex"
+  "main.bbl" 1780341047.36855 4004 7d5ca1cc85754f069133f06ac727b00b "bibtex main"
   "main.ind" 1779219762.85289 0 d41d8cd98f00b204e9800998ecf8427e "makeindex main.idx"
-  "main.lof" 1779757413.14048 478 b20518bc5b2f10908703fdc24ba51c4a "pdflatex"
-  "main.lot" 1779757413.14048 175 aa6d8044ce1a8487f72d1ac1edc1faa5 "pdflatex"
+  "main.lof" 1780344238.23251 613 29838135c903310bbe4d52a10da3d428 "pdflatex"
+  "main.lot" 1780344238.23651 175 aa6d8044ce1a8487f72d1ac1edc1faa5 "pdflatex"
   "main.tex" 1778785247.69723 7013 0f1374d0f6f44d2c0f97bcc4e9d5c9c6 ""
-  "main.toc" 1779757413.14048 2503 0fc86c490a9f0814756c09de2918effe "pdflatex"
+  "main.toc" 1780344238.23651 2503 0fc86c490a9f0814756c09de2918effe "pdflatex"
   "preambulo.tex" 1779215220.57054 3190 4c0227e121fbc256e345f0bc73d9227e ""
   "tabela_resultados.tex" 1779219807.57288 4205 7392e8587416b1e6624da5dca9ebb281 ""
   (generated)
