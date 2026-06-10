@@ -1,0 +1,94 @@
+conta;Fator_1;Fator_2
+ativo realizavel - ativo realizavel;0.1745377646969055;-0.03919289446687891
+ativo realizavel - disponibilidades;-0.014885466309632495;0.016176380505365903
+ativo realizavel - caixa;0.10591355720545576;0.060001909577626036
+ativo realizavel - reservas livres;0.01920723125878625;0.025513301964779904
+ativo realizavel - disponibilidades em moedas estrangeiras;0.006814837806437833;0.1017129562644626
+ativo realizavel - aplicacoes interfinanceiras de liquidez;0.12291597109581728;0.012407951244339247
+ativo realizavel - aplicacoes em operacoes compromissadas;0.10079954615784863;0.06118382236578649
+ativo realizavel - aplicacoes em depositos interfinanceiros;0.0637219251031967;-0.05855612620608927
+ativo realizavel - titulos e valores mobiliarios e instrumentos financeiros derivativos;0.003785605018902927;0.15780130438367643
+ativo realizavel - livres;-0.009371863612798749;0.10241048776237274
+ativo realizavel - instrumentos financeiros derivativos;-0.0878143552965948;0.17190099080731902
+ativo realizavel - vinculados a prestacao de garantias;0.001770388440231915;0.10900011584715466
+ativo realizavel - relacoes interfinanceiras;0.1350091922849888;0.04908963154394945
+ativo realizavel - creditos vinculados;0.1035040403169925;0.03376449299522061
+ativo realizavel - operacoes de credito;0.1713449202670664;-0.21215805874856636
+ativo realizavel - emprestimos e direitos creditorios descontados;0.054550620760068606;-0.14011004638816218
+ativo realizavel - financiamentos;0.09340925151402982;-0.13873116935272703
+ativo realizavel - (-) provisoes para operacoes de credito;-0.20464477900450737;-0.1867595014216044
+ativo realizavel - outros creditos;-0.14687881413208217;0.09703593098424998
+ativo realizavel - carteira de cambio;-0.11047124598180201;0.2437638397741692
+ativo realizavel - rendas a receber;0.018488328158604853;0.02614232826758985
+ativo realizavel - diversos;-0.09278387659710548;-0.06916835178789663
+ativo realizavel - (-) provisoes para outros creditos;-0.04257050923836062;0.00042354566428205444
+ativo realizavel - despesas pagas antecipadamente;0.05669648840179547;-0.04989493351082171
+ativo permanente - ativo permanente;0.00020659417436228627;-0.012893994567789356
+ativo permanente - investimentos;-0.020330968581283713;0.00235630786566198
+ativo permanente - outros investimentos;-0.012254636073015551;0.014268227766218434
+ativo permanente - imobilizado de uso;-0.01728980525077332;0.06558451044389241
+ativo permanente - instalacoes, moveis e equipamentos de uso;-0.003906257857678328;0.009073875909586623
+ativo permanente - ativo imobilizado de uso;-0.016035344403642945;0.043051757303574356
+ativo permanente - outros;0.01726587858447219;0.007526457027452069
+ativo permanente - intangivel;-0.021516632525326568;-0.007738068064440548
+compensacao ativa - compensacao ativa;-0.16949114268277402;0.04280120791349514
+compensacao ativa - coobrigacoes e riscos em garantias prestadas;-0.010546241076958065;0.07842361877636277
+compensacao ativa - custodia de valores;0.07074322383881078;-0.011194937791641192
+compensacao ativa - cobranca;0.013517436891638878;0.03263207710324908
+compensacao ativa - negociacao e intermediacao de valores;-0.09145999256983899;0.2020360256222609
+compensacao ativa - contratos;-0.008760214547473485;0.04399921671655602
+compensacao ativa - controle;-0.15097772239097912;-0.11537848885136011
+compensacao ativa - classificacao da carteira de creditos;0.08289556915828077;-0.22680455491128995
+compensacao ativa - operacoes de risco nivel aa;0.15503639160796118;0.08424572322161131
+compensacao ativa - operacoes de risco nivel a;0.050864618734639294;-0.21919783315545724
+compensacao ativa - operacoes de risco nivel b;0.11373735443594259;-0.09220219653901227
+compensacao ativa - operacoes de risco nivel c;0.033310414747050994;-0.10046312824247211
+compensacao ativa - operacoes de risco nivel d;-0.083661356755599;-0.14137338216650286
+compensacao ativa - operacoes de risco nivel e;-0.14662685959027283;-0.15367526038563012
+compensacao ativa - operacoes de risco nivel f;-0.18223639545821427;-0.15477128702282777
+compensacao ativa - operacoes de risco nivel g;-0.1768414285425994;-0.14098069513998787
+compensacao ativa - operacoes de risco nivel h;-0.20684409010003635;-0.16603678924930299
+passivo exigivel - passivo exigivel;0.2665321959913161;0.049258213068473125
+passivo exigivel - depositos;0.34980579506819065;-0.027512532561962483
+passivo exigivel - depositos a vista;0.1445635903892678;0.05657159705606339
+passivo exigivel - depositos interfinanceiros;0.17059164830016887;-0.10136219922311115
+passivo exigivel - depositos a prazo;0.21897867042316246;0.026921883399017812
+passivo exigivel - obrigacoes por operacoes compromissadas;0.07441360896143703;0.10637313914394578
+passivo exigivel - recursos de aceites cambiais, letras imobiliarias e hipotecarias, debentures e similares;-0.019140785091382048;-0.07169111411136954
+passivo exigivel - recursos  de  letras  imobiliarias,  hipotecarias, de credito e similares;0.08185349049102948;0.04308130816453204
+passivo exigivel - relacoes interdependencias;0.03839209508146599;0.06988421727957117
+passivo exigivel - recursos em transito de terceiros;0.0063244425514677885;0.13567576677791152
+passivo exigivel - obrigacoes por emprestimos e repasses;-0.020361337290685372;0.15895673364852342
+passivo exigivel - emprestimos no exterior;-0.07065634080231822;0.2300512648225163
+passivo exigivel - repasses do pais - instituicoes oficiais;0.02468387528355136;-0.01843805718367688
+passivo exigivel - instrumentos financeiros derivativos;-0.0790974219611829;0.16276795525713683
+passivo exigivel - outras obrigacoes;-0.1337334525824823;0.04592928509223709
+passivo exigivel - cobranca e arrecadacao de tributos e assemelhados;0.05014854473896689;0.022477361313027466
+passivo exigivel - sociais e estatutarias;-0.05777453258243555;-0.015539384665159315
+passivo exigivel - fiscais e previdenciarias;-0.03769110991658666;-0.06667650328198109
+passivo exigivel - diversas;-0.07742726553095569;-0.07905183986502479
+resultados de exercicios futuros;0.018400906172954087;-0.06167875342893816
+patrimonio liquido - patrimonio liquido;-0.06250155720741303;-0.09979115447024194
+patrimonio liquido - capital social;-0.04852937818503438;-0.07794758677112852
+patrimonio liquido - reservas de lucros;-0.06407985446935367;-0.05734133813867574
+patrimonio liquido - ajustes de avaliacao patrimonial;-0.026858731043480123;-0.016212830808668234
+patrimonio liquido - lucros ou prejuizos acumulados;0.026854977092670478;-0.005490326286894818
+resultado credor - resultado credor;-0.047941456041539945;0.06778487477912218
+resultado credor - rendas de operacoes de credito;-0.08571798142980969;-0.13668231020170407
+resultado credor - rendas de cambio;-0.09066541846945475;0.23995388016346048
+resultado credor - rendas de aplicacoes interfinanceiras de liquidez;0.1333249970202496;0.014863535050585528
+resultado credor - rendas com titulos e valores mobiliarios e instrumentos financeiros derivativos;-0.08064768849310783;0.19470495171449204
+resultado credor - rendas de prestacao de servicos;0.02116214484423173;-0.0022981924975290146
+resultado credor - rendas de participacoes;-0.012241091270930997;0.028604494658305547
+resultado credor - outras receitas operacionais;-0.002283934930654853;0.034857569662034876
+resultado credor - receitas nao operacionais;0.012320216866479928;-0.015341807898113775
+resultado credor - outras receitas nao operacionais;-0.0017432388618077433;-0.010448834473418933
+resultado devedor - (-) despesas de captacao;0.27008045825570476;-0.062366442958082274
+resultado devedor - (-) despesas de obrigacoes por emprestimos e repasses;-0.034806477314395616;0.18528740867882704
+resultado devedor - (-) despesas administrativas;0.0028640240986676944;0.021868602436843264
+resultado devedor - (-) aprovisionamentos e ajustes patrimoniais;-0.163142794434558;-0.13661283355577286
+resultado devedor - (-) outras despesas operacionais;-0.02214599671820621;-0.012100558870255252
+resultado devedor - (-) despesas nao operacionais;0.011396346306337244;-0.03525417608382648
+resultado devedor - (-) outras despesas nao operacionais;0.009459962599970565;-0.027517890256342093
+resultado devedor - (-) apuracao de resultado;0.05532188636776342;0.07843959362825532
+resultado devedor - (-) participacoes no lucro;0.044001761271013046;0.013766853047381034
