@@ -19,14 +19,6 @@
 \emph{Annual Review of Economics}, v.~11, n.~1, p. 685--725, ago. 2019.
 ISSN 1941-1383, 1941-1391.}
 
-\bibitem[{Banco Central do Brasil} 2017]{resolucao_bcb}
-\abntrefinfo{{Banco Central do Brasil}}{{Banco Central do Brasil}}{2017}
-{{Banco Central do Brasil}. \emph{{{RESOLU\c C\~AO Nº}} 4.553}. 2017.}
-
-\bibitem[{Banco Central do Brasil} 2018]{resolucao_bcb2}
-\abntrefinfo{{Banco Central do Brasil}}{{Banco Central do Brasil}}{2018}
-{{Banco Central do Brasil}. \emph{{{RESOLU\c C\~AO Nº}} 4.656}. 2018.}
-
 \bibitem[{Banco Central do Brasil} 2025]{financialdata}
 \abntrefinfo{{Banco Central do Brasil}}{{Banco Central do Brasil}}{2025}
 {{Banco Central do Brasil}. \emph{Estabilidade {{Financeira}}: {{Balancetes}} e {{Balan\c cos Patrimoniais}}}. 2025.}
@@ -48,11 +40,6 @@ ISSN 0022-1090.}
 {INGERSOLL, J. \emph{Theory of Financial Decision Making}. [S.l.]: Bloomsbury Academic, 1987.
 ISBN 978-0-8476-7359-9.}
 
-\bibitem[James et al. 2023]{IntroductionStatisticalLearning2023}
-\abntrefinfo{James et al.}{JAMES et al.}{2023}
-{JAMES, G. et al. \emph{An {{Introduction}} to {{Statistical Learning}}: With {{Applications}} in {{Python}}}. Cham: Springer International Publishing, 2023.  (Springer {{Texts}} in {{Statistics}}).
-ISBN 978-3-031-38746-3 978-3-031-38747-0.}
-
 \bibitem[Maudos and Guevara 2004]{maudosFactorsExplainingInterest2004}
 \abntrefinfo{Maudos and Guevara}{MAUDOS; GUEVARA}{2004}
 {MAUDOS, J.; GUEVARA, J. F.~D. Factors explaining the interest margin in the banking sectors of the {{European Union}}.
@@ -68,9 +55,10 @@ ISSN 03784266.}
 \abntrefinfo{Santos}{SANTOS}{2021}
 {SANTOS, T. T.~O. \emph{High {{Lending Interest Rates}} in {{Brazil}}: Cost or Concentration?} [S.l.]: Banco Central do Brasil, 2021.}
 
-\bibitem[Steinbach, Ert{\"o}z and Kumar 2004]{steinbachChallengesClusteringHigh2004}
-\abntrefinfo{Steinbach, Ert{\"o}z and Kumar}{STEINBACH; ERT{\"O}Z; KUMAR}{2004}
-{STEINBACH, M.; ERT{\"O}Z, L.; KUMAR, V. The {{Challenges}} of {{Clustering High Dimensional Data}}. In:  WILLE, L.~T. (Ed.). \emph{New {{Directions}} in {{Statistical Physics}}}. Berlin, Heidelberg: Springer Berlin Heidelberg, 2004. p. 273--309.
-ISBN 978-3-642-07739-5 978-3-662-08968-2.}
+\bibitem[Vichi and Kiers 2001]{vichiFactorialKmeansAnalysis2001}
+\abntrefinfo{Vichi and Kiers}{VICHI; KIERS}{2001}
+{VICHI, M.; KIERS, H.~A. Factorial k-means analysis for two-way data.
+\emph{Computational Statistics \& Data Analysis}, v.~37, n.~1, p. 49--64, jul. 2001.
+ISSN 01679473.}
 
 \end{thebibliography}
