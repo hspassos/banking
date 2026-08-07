@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2024.12.22)  1 JUN 2026 17:03
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2024.12.22)  7 AUG 2026 17:57
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -751,14 +751,25 @@ LaTeX Info: Redefining \cite on input line 618.
 \ABCItoken=\toks42
 ) (/usr/share/texlive/texmf-dist/tex/latex/comment/comment.sty
 \CommentStream=\write4
- Excluding comment 'comment')
-Package color Info: Redefining color blue on input line 46.
-Package hyperref Info: Option `colorlinks' set `true' on input line 63.
-\c@quadro=\count361
-\c@loqdepth=\count362
-\cftbeforequadroskip=\skip269
-\cftquadroindent=\skip270
-\cftquadronumwidth=\skip271
+ Excluding comment 'comment') (/usr/share/texlive/texmf-dist/tex/latex/multirow/multirow.sty
+Package: multirow 2021/03/15 v2.8 Span multiple rows of a table
+\multirow@colwidth=\skip269
+\multirow@cntb=\count361
+\multirow@dima=\skip270
+\bigstrutjot=\dimen261
+) (/usr/share/texlive/texmf-dist/tex/latex/makecell/makecell.sty
+Package: makecell 2009/08/03 V0.1e Managing of Tab Column Heads and Cells
+\rotheadsize=\dimen262
+\c@nlinenum=\count362
+\TeXr@lab=\toks43
+)
+Package color Info: Redefining color blue on input line 48.
+Package hyperref Info: Option `colorlinks' set `true' on input line 65.
+\c@quadro=\count363
+\c@loqdepth=\count364
+\cftbeforequadroskip=\skip271
+\cftquadroindent=\skip272
+\cftquadronumwidth=\skip273
 )
 \main@idxfile=\write5
 \openout5 = `main.idx'.
@@ -788,20 +799,20 @@ LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 14.
 LaTeX Font Info:    ... okay on input line 14.
 Package hyperref Info: Link coloring ON on input line 14.
 \myptabbox=\box62
-\myptabboxwidth=\skip272
+\myptabboxwidth=\skip274
  (/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count363
-\scratchdimen=\dimen261
+\scratchcounter=\count365
+\scratchdimen=\dimen263
 \scratchbox=\box63
-\nofMPsegments=\count364
-\nofMParguments=\count365
-\everyMPshowfont=\toks43
-\MPscratchCnt=\count366
-\MPscratchDim=\dimen262
-\MPnumerator=\count367
-\makeMPintoPDFobject=\count368
-\everyMPtoPDFconversion=\toks44
+\nofMPsegments=\count366
+\nofMParguments=\count367
+\everyMPshowfont=\toks44
+\MPscratchCnt=\count368
+\MPscratchDim=\dimen264
+\MPnumerator=\count369
+\makeMPintoPDFobject=\count370
+\everyMPtoPDFconversion=\toks45
 ) (/usr/share/texlive/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 485.
@@ -929,7 +940,7 @@ l.123 \end{dedicatoria}
 
 ] (./main.toc
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <14.4> on input line 24.
+(Font)              <14.4> on input line 25.
 ) [15] [16
 
 ] (./chapter1.tex) (./chapter2.tex
@@ -972,52 +983,37 @@ l.1 \chapter
 pdfTeX warning (ext4): destination with the same identifier (name{page.7}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.18 
-      [7]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
+l.20 T
+      he k-means algorithm aims to partition the data into $K$ clusters by m... [7]
 pdfTeX warning (ext4): destination with the same identifier (name{page.8}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.27 
-      [8]
-<PCA_optimization.png, id=223, 715.473pt x 426.393pt>
-File: PCA_optimization.png Graphic file (type png)
-<use PCA_optimization.png>
-Package pdftex.def Info: PCA_optimization.png  used on input line 35.
-(pdftex.def)             Requested size: 364.00139pt x 216.93054pt.
-
-Underfull \vbox (badness 7116) has occurred while \output is active []
-
-
+l.46 $$
+       H(k) = \left( \frac{WCSS_k}{WCSS_{k+1}} - 1 \right) \cdot (N - k - 1)$$ [8]
 pdfTeX warning (ext4): destination with the same identifier (name{page.9}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.43 
-      [9 <./PCA_Optimization.png>]
-<clusters_evolution.png, id=230, 1152.7065pt x 570.933pt>
-File: clusters_evolution.png Graphic file (type png)
-<use clusters_evolution.png>
-Package pdftex.def Info: clusters_evolution.png  used on input line 48.
-(pdftex.def)             Requested size: 364.00139pt x 180.28914pt.
-
+l.99 T
+      he clusters were then defined based on the combination of values on ea... [9]
 pdfTeX warning (ext4): destination with the same identifier (name{page.10}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.58 
-      [10 <./clusters_evolution.png>]
-<cluster_mkshare.png, id=243, 1152.7065pt x 570.933pt>
-File: cluster_mkshare.png Graphic file (type png)
-<use cluster_mkshare.png>
-Package pdftex.def Info: cluster_mkshare.png  used on input line 61.
-(pdftex.def)             Requested size: 364.00139pt x 180.28914pt.
-<cluster_risk_composition.png, id=244, 1146.9249pt x 567.3195pt>
+l.122 
+       [10]
+<cluster_discriminanting_variables.png, id=232, 712.5822pt x 687.2877pt>
+File: cluster_discriminanting_variables.png Graphic file (type png)
+<use cluster_discriminanting_variables.png>
+Package pdftex.def Info: cluster_discriminanting_variables.png  used on input line 130.
+(pdftex.def)             Requested size: 318.49861pt x 307.20015pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<cluster_risk_composition.png, id=236, 1145.4795pt x 566.5968pt>
 File: cluster_risk_composition.png Graphic file (type png)
 <use cluster_risk_composition.png>
-Package pdftex.def Info: cluster_risk_composition.png  used on input line 75.
-(pdftex.def)             Requested size: 364.00139pt x 180.04836pt.
-
+Package pdftex.def Info: cluster_risk_composition.png  used on input line 142.
+(pdftex.def)             Requested size: 364.00139pt x 180.04378pt.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
@@ -1026,36 +1022,23 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.11}) has 
 <to be read again> 
                    \relax 
 l.1 \chapter
-            {Sample and Data} [11 <./cluster_mkshare.png>]
+            {Sample and Data} [11]
 pdfTeX warning (ext4): destination with the same identifier (name{page.12}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.1 \chapter
-            {Sample and Data} [12 <./cluster_risk_composition.png>]
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-(./tabela_resultados.tex
-Overfull \hbox (37.25174pt too wide) in paragraph at lines 2--42
- [] 
- []
-
-))
-Underfull \hbox (badness 10000) in paragraph at lines 44--176
-
- []
-
-
-Underfull \vbox (badness 3407) has occurred while \output is active []
-
-
+            {Sample and Data} [12 <./cluster_discriminanting_variables.png> <./cluster_risk_composition.png>]
 pdfTeX warning (ext4): destination with the same identifier (name{page.13}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.176 
-       [13
+l.27 \begin{equation}
+                      [13
 
-] (./main.bbl
+]
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+) (./main.bbl
 pdfTeX warning (ext4): destination with the same identifier (name{page.14}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
@@ -1077,10 +1060,7 @@ l.3 ...th{\labelsep}{0pt}\begin{thebibliography}{}
 
 ]
 bibitemlist
-LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 24.
-(/usr/share/texmf/tex/latex/lm/ts1lmr.fd
-File: ts1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
-)) [17{/usr/share/texmf/fonts/enc/dvips/lm/lm-ts1.enc}] [18
+) [17] [18
 
 ]
 
@@ -1117,18 +1097,18 @@ L3 programming layer <2020/03/25>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 19469 strings out of 474222
- 311667 string characters out of 5748732
- 1947975 words of memory out of 5000000
- 41093 multiletter control sequences out of 15000+600000
- 663024 words of font info for 197 fonts, out of 8000000 for 9000
+ 19630 strings out of 474222
+ 313283 string characters out of 5748732
+ 1940975 words of memory out of 5000000
+ 41255 multiletter control sequences out of 15000+600000
+ 662252 words of font info for 193 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 99i,16n,107p,1122b,626s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 99i,25n,107p,1125b,626s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/share/texmf/fonts/type1/public/lm/lmbx12.pfb></usr/share/texmf/fonts/type1/public/lm/lmex10.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi12.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi6.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi8.pfb></usr/share/texmf/fonts/type1/public/lm/lmr10.pfb></usr/share/texmf/fonts/type1/public/lm/lmr12.pfb></usr/share/texmf/fonts/type1/public/lm/lmr6.pfb></usr/share/texmf/fonts/type1/public/lm/lmr7.pfb></usr/share/texmf/fonts/type1/public/lm/lmr8.pfb></usr/share/texmf/fonts/type1/public/lm/lmri10.pfb></usr/share/texmf/fonts/type1/public/lm/lmri12.pfb></usr/share/texmf/fonts/type1/public/lm/lmss10.pfb></usr/share/texmf/fonts/type1/public/lm/lmss12.pfb></usr/share/texmf/fonts/type1/public/lm/lmss17.pfb></usr/share/texmf/fonts/type1/public/lm/lmssbx10.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy10.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy6.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy8.pfb>
-Output written on main.pdf (41 pages, 653517 bytes).
+Output written on main.pdf (41 pages, 604802 bytes).
 PDF statistics:
- 490 PDF objects out of 1000 (max. 8388607)
- 394 compressed objects within 4 object streams
- 95 named destinations out of 1000 (max. 500000)
- 59573 words of extra memory for PDF output out of 61914 (max. 10000000)
+ 493 PDF objects out of 1000 (max. 8388607)
+ 401 compressed objects within 5 object streams
+ 100 named destinations out of 1000 (max. 500000)
+ 57523 words of extra memory for PDF output out of 61914 (max. 10000000)
 

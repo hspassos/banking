@@ -1,6 +1,44 @@
 \chapter{Sample and Data}
 
-The empirical model is based on \citeonline{maudosFactorsExplainingInterest2004}. It is a single stage model and the variables used are shown in Table \ref{table:1}.
+The empirical model is based on \citeonline{maudosFactorsExplainingInterest2004}. The variables used and their definitions are shown in Table \ref{main variables}. 
+
+\section{Estimating Lerner index}
+
+For the estimation of the Lerner index, we use the same strategy used by \citeonline{maudosFactorsExplainingInterest2004}. The authors estimate the price as the ratio of total operating revenue to total assets of institution. The cost function is used as natural logarithm of a Cobb Douglas function of the bank outputs (proxied by total assets($TA$)), price of labor($w_1$), cost of physical capital($w_2$) and cost of funds($w_3$):
+
+\begin{equation}
+    \begin{aligned}
+        \ln C = \alpha_0 + \alpha \ln TA + \beta_1 \ln w_1 + \beta_2 \ln w_2 + \beta_3 \ln w_3
+    \end{aligned}
+\end{equation}
+
+For the estimation of the cost function, \citeonline{perezdeantonCompetenciaPoderMercado2003} use a translog cost function, which is a second-order approximation of $\ln C$ adding trend components to capture the time-varying nature of the components, given by the following equation:
+
+\begin{equation}
+    \begin{aligned}
+        \ln C_i & = \alpha_0 + \alpha_1 \ln TA_i + \frac{1}{2} \alpha_2 (\ln TA_i)^2 + \sum_{j=1}^{3} \beta_j \ln w_{ji} + \frac{1}{2} \sum_{j=1}^{3} \sum_{k=1}^{3} \beta_{jk} \ln w_{ji} \ln w_{ki} \\ & + \frac{1}{2} \sum_{j=1}^{3} \gamma_j \ln TA_i \ln w_{ji} + \mu_1 \textit{Trend} + \mu_2 \frac{1}{2} \textit{Trend}^2 + \mu_3 \textit{Trend} \ln TA_i \\ & + \sum_{j=1}^{3} \lambda_j \textit{Trend} \ln w_{ji} + \ln u_i
+    \end{aligned}
+\end{equation}
+
+To estimate the total cost ($C$) we use the sum of all operating and financial expenses of the institution. The price of labor($w_1$) is the administrative expenses divided by the total asset, the price of physical capital($w_2$) is the other operating expenses divided by the net fixed assets and the price of funds($w_3$) is the total financial expenses (composed by expenses on funding, leasing,securities, loan and on-lending) divided by the total funding (composed by deposits, repurchase agreements, banker's acceptances/debentures and loan and on-lending). The equation was estimated with fixed efects for each bank, in order to control for unobserved characteristics specific to each bank, with robust and clustered standard errors by entity. The usual restrictions of symmetry ($\beta_{jk} = \beta_{kj}$) and homogeneity of degree one in input prices were imposed. The restriction of homogeneity of degree one in input prices is obtained by normalizing the total cost and the prices $w_1$ and $w_2$ by the price of funds ($w_3$).
+
+The cost elasticity on total assets is given by the following equation:
+
+\begin{equation}
+    \begin{aligned}
+        \frac{\partial \ln C_{it}}{\partial \ln TA_{it}} = \hat{\alpha} + \hat{\alpha}_k \ln TA_{it} + \hat{\gamma}_1 \ln w_{1,it} + \hat{\gamma}_2 \ln w_{2,it} + \hat{\mu}_3 \textit{Trend}_{it}
+    \end{aligned}
+\end{equation}
+
+Then the marginal cost is obtained by multiplying the cost elasticity on total assets by the ratio of total cost to total assets:
+
+\begin{equation}
+    \begin{aligned}
+        MC_{it} = \left( \frac{\partial \ln C_{it}}{\partial \ln TA_{it}} \right) \times \frac{C_{it}}{TA_{it}}
+    \end{aligned}
+\end{equation}
+
+
 
 \begin{sidewaystable}[h!]
     \centering
@@ -9,22 +47,22 @@ The empirical model is based on \citeonline{maudosFactorsExplainingInterest2004}
     \hline
     Variable & Name & Financial Statement Accounts \\ [0.5ex] 
     \hline\hline
-    $\textit{nim}$ & Net Income Margin & $\dfrac{\textit{Operating Revenue} - \textit{Capital Raising Cost}}{\textit{Realizable Assets}}$ \\ 
+    $\textit{nim}$ & Net Interest Margin & $\dfrac{\makecell{\textit{Operating} \\ \textit{Revenue}} - \makecell{\textit{Funding} \\ \textit{expenses}} - \makecell{\textit{Expenses on borrowings} \\ \textit{and onlendings}}}{\textit{Realizable Assets}}$ \\ 
     $\textit{hhi}$ & HHI Index & $\sum_{i=1}^n{(market share_i)^2}$ \\ 
     $\textit{aoc}$ & Average Operating Costs & $\dfrac{\textit{Operating Costs}}{\textit{Total Assets}}$ \\
     $\textit{riskaver}$ & Risk Aversion & $\dfrac{\text{Total Equity}}{\textit{Total Assets}}$ \\ 
     $\textit{sd}$ & Volatility of market interest rates \\ 
     $\textit{crerisk}$ & Credit Risk & $\dfrac{\textit{provisions for credit operations}}{\textit{Total Credit Operations}}$ \\ 
     $\textit{sd*crerisk}$ & Interaction between credit risk and market risk & $sd \times crerisk$ \\ 
-    $\textit{size}$ & Average size of operations & $\log_{10}(\textit{Total Credit Operations})$ \\
+    $\textit{size}$ & Average size of operations & $\ln(\textit{Total Credit Operations})$ \\
     $\textit{iip}$ & Implicit interest payments & $\dfrac{\textit{Operating Costs} - \textit{Services Income}}{\textit{Total Assets}}$ \\ 
-    $\textit{reser}$ & Opportunity costs of bank reserves & $\dfrac{\textit{Cash and Cash Equivalents} - \textit{Interbank Liquid Investments}}{\textit{Total Assets}}$ \\ 
-    $\textit{ef}$ & Implicit interest payments & $\dfrac{\textit{Operating Costs}}{\textit{Operating Revenue}}$ \\ 
+    $\textit{reser}$ & Opportunity costs of bank reserves & $\dfrac{\textit{Cash and Cash Equivalents}}{\textit{Total Assets}}$ \\ 
+    $\textit{ef}$ & Quality of manegement & $\dfrac{\textit{Operating Costs}}{\textit{Operating Revenue}}$ \\ 
     [1ex] 
     \hline
     \end{tabular}
 \caption{List of variables used in the empirical model}
-\label{table:1}
+\label{main variables}
 \end{sidewaystable}
 
-\input{tabela_resultados.tex}
+%\input{tabela_resultados.tex}
