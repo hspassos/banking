@@ -1,6 +1,9 @@
 *.json
 *.json:Zone.Identifier
+.conda/
 dados/
+*.deb
+
 # Arquivos gerados pelo LaTeX e ferramentas relacionadas
 *.aux
 *.bbl
@@ -17,5 +20,34 @@ dados/
 *.out
 *.synctex.gz
 *.toc
-# Arquivo PDF gerado
-*.pdf
+
+# Arquivos de backup e temporários
+*.xlsx
+*.png
+!tex/**/*.png #mantém os pngs dentro da pasta tex
+*.RData
+
+# Notebooks não usados
+clustering_dbscan.ipynb
+clustering_k-means.ipynb
+clusters.ipynb
+code_extract.py
+create_bis_nb.py
+create_structural_nb.py
+diff_diff.ipynb
+extract_nb.py
+fintechs.ipynb
+fix_notebook.py
+loadings.ipynb
+mktsh.ipynb
+model_2sls.ipynb
+model_angbazo.ipynb
+model_bis.ipynb
+model_maudos.ipynb
+modelo modelo_estrutural_indices.ipynb
+statistical_modelling - bancos.ipynb
+statistical_modelling - Copia.ipynb:Zone.Identifier
+statistical_modelling.ipynb
+temp_code.py
+tests.ipynb
+update_indices_nb.py

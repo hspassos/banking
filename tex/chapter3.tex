@@ -53,9 +53,9 @@ In this study, the method used is the ASW
 
 \begin{table}[!ht]
     \centering
-\begin{tabular}{@{}lllll@{}}
+\begin{tabular}{@{}ccccc@{}}
                                     \cmidrule(l){2-5}
-                                    &  & \multicolumn{3}{l}{Number of factors} \\ \cmidrule(l){2-5}
+                                    &  & \multicolumn{3}{c}{Number of factors} \\ \cmidrule(l){2-5}
                                     &  & 2 & 3 & 4 \\
 \multirow{4}{*}{\rotatebox[origin=c]{90}{Clusters}}& 3 & 0.128 &  &  \\
                                     & 4 & 0.075 & 0.15 &  \\
@@ -92,27 +92,59 @@ The three factors found were named based on the variables with higher absolute l
 
 Factor 1 (Core deposits) indicates institutions with high liquidity through core deposits, high fixed assets but less diversified operations with low investments and interbank deposits.
 
-Factor 2 s(Onlending funding)hows higher credit volume and high Borrowings and onlendings which represents funds raised from other intitutions (development banks, international development agencies).The cost of funds is also higher 
+Factor 2 (Onlending funding) shows higher credit volume and high Borrowings and onlendings which represents funds raised from other intitutions (development banks, international development agencies).The cost of funds is also higher 
 
 Factor 3 (High risk credit) indicates higher risk intitutions more dependent on credit and fee incomes. Low cost of funds may be a consequence of companies that raise funds with equity and securitization strategies.
 
+The clusters were then defined based on the combination of values on each centroid, based on these values we can see the main characteristics that differentiate business models. The differences between the clusters are mostly based on type of funding and revenue sources. The cluster centroids are shown in table \ref{tab:cluster_centroids}.
 
-Cluster 1 
+\begin{table}[!ht]
+    \centering
+\begin{tabular}{@{}ccccc@{}}
+                                    \cmidrule(l){3-5}
+                                    &  & \multicolumn{3}{c}{Factor} \\ \cmidrule(l){3-5}
+                                    &  & 1 & 2 & 3 \\
+\multirow{4}{*}{\rotatebox[origin=c]{90}{Cluster}}& 1 & 0.107 & -0.093 & -0.234 \\
+                                    & 2 & -0.217 & 0.199 &-0.163 \\
+                                    & 3 & -0.337 & -0.019 & 1.062 \\
+                                    & 4 & 0.704 & -0.265 & -0.128 \\ \cmidrule(l){2-5} 
+\end{tabular}
+    \caption{Cluster Centroids}
+    \label{tab:cluster_centroids}
+\end{table}
 
-Cluster 2 has 
 
-Cluster 3 (Finance Companies) has institutions with operations mostly concentrated in credit, 75\% of this cluster has no demand deposits which shows that this cluster has a high concentration of finance companies. This cluster also has higher provisions which indicates higher risks. Most of the institutions on this cluster are finance companies.
+Cluster 1 (Specialized multi-service banks focused on consumer credit) has the higher proportion of on demand deposits, time deposits, and fixed asset intensity among the four groups, which indicates that this cluster, as well as the second highest concentration of credit operations. This combination characterizes banks with a strong specialization in consumer credit that also possess full access to banking funding sources, structurally distinguishing them from the pure finance companies in Cluster 3.
 
-Cluster 4 (Wholesale and Foreign Banks) is composed of institutions with a large cash buffer and securities portfolio. It is a strategy typical of Securities holding banks and a large part of this cluster is formed of wholesale foreign banks like Rabobank, Credit Suisse, ING and Deutsche Bank.
+Cluster 2 (Diversified Conglomerates and Wholesale Players with a Strong Local Presence) comprises the country's five largest banks (Banco do Brasil, Bradesco, Itaú Unibanco, Santander, Caixa Econômica Federal), foreign investment and wholesale banks with substantial local operations (J.P. Morgan, Citibank, Credit Suisse, BNP Paribas, Goldman Sachs, BofA Merrill Lynch, UBS), manufacturer-affiliated captive finance companies (John Deere, Caterpillar, CNH Industrial, Mercedes-Benz, Scania, Toyota, PACCAR, Komatsu), regional development banks, and various niche SCDs/fintechs. In terms of gross averages, this cluster shows the lowest (or near-lowest) values across virtually all line items simultaneously—a pattern consistent with large balance sheets diversified across multiple activities (lending, treasury, foreign exchange, services), which proportionally dilutes each individual ratio. The only notable exception is the highest average for repurchase agreements among the four clusters.
 
-The evolution of the number of institutions in each cluster over time is shown in Figure \ref{fig:clusters_evolution}.
+Cluster 3 (Finance Companies) has institutions with operations mostly concentrated in credit, 75\% of this cluster has no demand deposits which shows that this cluster has a high concentration of finance companies. This cluster also has high provisions which indicates high-risk portfolios and the highest level of funding via interbank deposits among the four clusters reflecting reliance on the interbank market as a more expensive alternative funding source due to regulatory restrictions on accepting deposits from the general public. Most of the institutions on this cluster are finance companies.
+
+Cluster 4 (Wholesale and Foreign Banks) is the smallest cluster, composed of institutions with a large cash buffer and securities portfolio. It is a strategy typical of Securities holding banks and a large part of this cluster is formed of wholesale foreign banks like Rabobank, Credit Suisse, ING and Deutsche Bank. The cluster profile is dominated by foreign exchange portfolios (on average, 8.2\% of the total asset, approximately 15 times the Cluster 2 average) and foreign exchange income (also the highest among the clusters), as well as higher levels of securities, interbank investments, and other receivables, consistent with low local credit intermediation and a focus on treasury and foreign exchange operations. %The average proportion of loan and on-lending liabilities is highest among the four clusters, which may differ from the factor 2 low score (-0.265), these insitutions rely heavily on loans raised from their overseas parent companies.
+
+Figure \ref{fig:cluster_discrimination} illustrates the profile of each cluster based on the most discriminating balance sheet accounts, identified from the Factorial K-Means model with the highest loadings in absolute value (the account obligations for borrowings and onlendings under liabilities is divided into three groups: domestic borrowings, domestic on-lendings, and the sum of the liabilities from foreign borrowings and foreign on-lendings). For each account, a z-score was calculated for each individual institution relative to the mean and standard deviation of the full sample, the values represent the distance in standard deviations from the overall sample mean. Subsequently, these standardized scores were aggregated using a simple average within each cluster.
+
 
 \begin{figure}[h!] % [h!] força a posição, pode ser [!htb]
     \centering
-    \includegraphics[width=0.8\textwidth]{clusters_evolution.png} % Ajusta largura
-    \caption{Evolution of Clusters over Time (by number of institutions)}
-    \label{fig:clusters_evolution}
+    \includegraphics[width=0.7\textwidth]{cluster_discriminanting_variables.png} % Ajusta largura
+    \caption{Comparative profile based on the most discriminating variables}
+    \label{fig:cluster_discrimination}
 \end{figure}
+
+We can see from Figure \ref{fig:cluster_discrimination} that Cluster 3 is the one with the most concentrated operations in credit and the largest volume of provisions, indicating a higher risk. Also is more dependent on expensive funding sources like interbank deposits and on-lending. Cluster 4 has high volume of foreign operations indicating the presence of foreign banks. Clusters 1 and 2 have a more balanced profile, but cluster 2 has the highest concentration of domestic intitutional funding and a lower concentration of credit operations than cluster 1, which indicates a more diversified business model while cluster 1 has a more traditional retail bank model.
+
+
+Figure \ref{fig:cluster_risk_composition} illustrates the composition of the credit portfolio by risk level for each cluster. Cluster 3 is the one with the highest proportion of high-risk credit operations, Cluster 4 has the portfolio with the lowest risk but has the lower proportion of credit operations over total assets.
+
+\begin{figure}[h!] % [h!] força a posição, pode ser [!htb]
+    \centering
+    \includegraphics[width=0.8\textwidth]{cluster_risk_composition.png} % Ajusta largura
+    \caption{Composition of Credit Portfolio by Risk Level for each cluster}
+    \label{fig:cluster_risk_composition}
+\end{figure}
+
+
 
 %Before 2018, one category of financial institutions known as "sociedade de crédito ao microempreendedor e à Empresa de Pequeno Porte" (SCMEPP) did not have it's financial statements disclosed, this changed after a Central Bank's resolution that made the disclosure mandatory \cite{resolucao_bcb}. So in the the data we can see a signifiant increase in the number of institutions in cluster 4 after 2018, which is the cluster that contains most of the SCMEPPs. Also in 2018, the, it was created the "sociedade de crédito direto" (SCD), which is a new type of financial institution that operates exclusively through digital platforms and has a more flexible regulatory framework \cite{resolucao_bcb2}. The SCDs start appearing in the data in 2019 and are only 52 institutions, but they are growing rapidly wth only one in 2019, 34 in 2023 and 39 in 2024.
 
@@ -122,12 +154,7 @@ The evolution of the number of institutions in each cluster over time is shown i
 
 
 
-\begin{figure}[h!] % [h!] força a posição, pode ser [!htb]
-    \centering
-    \includegraphics[width=0.8\textwidth]{cluster_mkshare.png} % Ajusta largura
-    \caption{Evolution of Clusters Market Share (Excluding Top 5 Institutions for each year)}
-    \label{fig:cluster_mkshare}
-\end{figure}
+
 
 
 
@@ -139,10 +166,5 @@ The evolution of the number of institutions in each cluster over time is shown i
 %Cluster 4 is the one which absorbed most of the SCMEPPs after 2018, it is composed mostly by finance companies and has a higher share of credit operations over total assets than cluster 0, but lower than cluster 2. It has more risky credit operations classified as "level h" and "level f" in the data, which are operations with higher risk of default. It also has the higher ratio of credit provisions over credit operations.
 
 
-\begin{figure}[h!] % [h!] força a posição, pode ser [!htb]
-    \centering
-    \includegraphics[width=0.8\textwidth]{cluster_risk_composition.png} % Ajusta largura
-    \caption{Composition of Credit Portfolio by Risk Level for each cluster}
-    \label{fig:cluster_risk_composition}
-\end{figure}
+
 

@@ -16,6 +16,7 @@
 \contentsline {section}{\numberline {3.3}Cluster Results}{9}{section.3.3}%
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
 \contentsline {chapter}{\chapternumberline {4}\MakeTextUppercase []{Sample and Data}}{13}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Estimating Lerner index}{13}{section.4.1}%
 \setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
 \contentsline {chapter}{\MakeTextUppercase []{Bibliography}}{17}{section*.12}%
 \renewcommand *{\cftappendixname }{APPENDIX \space }

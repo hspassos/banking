@@ -1,20 +1,20 @@
 # Fdb version 4
-["bibtex main"] 1785284551.8279 "main.aux" "main.bbl" "main" 1785531255.16699 0
+["bibtex main"] 1786061032.55166 "main.aux" "main.bbl" "main" 1786061445.10231 0
   "./abntex2-alf.bst" 1755018769.79773 60066 2d7d13e0d4ec763ab38bcee7229cfc84 ""
-  "./bibliography.bib" 1785284551.39418 13609 5825d0a8a8f2efb80ab6c215cd3ea382 ""
+  "./bibliography.bib" 1785972845.65345 14146 4c70e2080ccebadfe3cd14207e4360e1 ""
   "/usr/share/texlive/texmf-dist/bibtex/bib/abntex2/abntex2-options.bib" 1357081713 5396 4eb260dac60f150ae608d45252853090 ""
-  "main.aux" 1785531254.66079 12516 9e20393815b76b9b77e4ac05e7750388 "pdflatex"
+  "main.aux" 1786061444.49785 13273 41aad4f87426dafd019a9a8f02534673 "pdflatex"
   (generated)
   "main.bbl"
   "main.blg"
   (rewritten before read)
-["makeindex main.idx"] 1785283437.43877 "main.idx" "main.ind" "main" 1785531255.16682 0
-  "main.idx" 1785531254.00646 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
+["makeindex main.idx"] 1786061032.23372 "main.idx" "main.ind" "main" 1786061445.10212 0
+  "main.idx" 1786061443.41298 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
   (generated)
   "main.ilg"
   "main.ind"
   (rewritten before read)
-["pdflatex"] 1785531253.44131 "/home/hspassos/mestrado/banking/tex/main.tex" "main.pdf" "main" 1785531255.16711 0
+["pdflatex"] 1786061442.299 "/home/hspassos/mestrado/banking/tex/main.tex" "main.pdf" "main" 1786061445.10246 0
   "/etc/texmf/web2c/texmf.cnf" 1733975436.6578 475 c0e671620eb5563b2130f56340a5fde8 ""
   "/home/hspassos/mestrado/banking/tex/main.tex" 1778785247.69723 7013 0f1374d0f6f44d2c0f97bcc4e9d5c9c6 ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
@@ -100,6 +100,7 @@
   "/usr/share/texlive/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg" 1279039959 678 4792914a8f45be57bb98413425e4c7af ""
   "/usr/share/texlive/texmf-dist/tex/latex/lipsum/lipsum.ltd.tex" 1632168149 95525 6fd0552101a6b1f9b7a84b402ec435ba ""
   "/usr/share/texlive/texmf-dist/tex/latex/lipsum/lipsum.sty" 1632168149 14690 c2c754218a7108db7823a4839c1bc3cd ""
+  "/usr/share/texlive/texmf-dist/tex/latex/makecell/makecell.sty" 1249334690 15773 2dd7dde1ec1c2a3d0c85bc3b273e04d8 ""
   "/usr/share/texlive/texmf-dist/tex/latex/memoir/mem12.clo" 1659128422 4280 78cdcf597764ba6b1c5d710a1e16e833 ""
   "/usr/share/texlive/texmf-dist/tex/latex/memoir/memhfixc.sty" 1706306447 10797 d237e2f29e077d0b36680b6340798b08 ""
   "/usr/share/texlive/texmf-dist/tex/latex/memoir/memoir.cls" 1706306447 377850 96e608031155be47f54ebfc9d45d33c1 ""
@@ -193,20 +194,18 @@
   "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1734893529 8214149 0256d6a1275364900a79a0193c40d020 ""
   "chapter1.tex" 1775499833.15187 1425 58e7783a26db71619da96b199024fae8 ""
   "chapter2.tex" 1755633922.17381 5748 c99f44d1c6ed907dc7d0a5bfe5335a3a ""
-  "chapter3.tex" 1785531253.1319 17536 df3296f21844c571fd1eeec8e76c6d1e ""
-  "chapter4.tex" 1779219762.48889 1822 8cb2d550367dd7c5a024e96703b927b0 ""
-  "cluster_mkshare.png" 1784841418.69358 105920 ecb5502e9d9a5ca6f67b18757636f998 ""
-  "cluster_risk_composition.png" 1780340909.10454 130223 d66e3b3d9b43cebe725a05411125d56c ""
-  "clusters_evolution.png" 1784841552.38935 82807 d0da15de45430e312f1ea1fed3aafe66 ""
-  "main.aux" 1785531254.66079 12516 9e20393815b76b9b77e4ac05e7750388 "pdflatex"
-  "main.bbl" 1785284551.97018 3075 c582a77c93df67460a00d5e1e3674d8c "bibtex main"
-  "main.ind" 1785283437.56318 0 d41d8cd98f00b204e9800998ecf8427e "makeindex main.idx"
-  "main.lof" 1785531254.66246 478 669c3b00052f7981ab2dd2d2c25f3784 "pdflatex"
-  "main.lot" 1785531254.66246 275 73900a31ba87689e3d5e51da6e999e79 "pdflatex"
+  "chapter3.tex" 1786043948.87908 22331 9f1d1d165d9c9e989d6d9d090beeb321 ""
+  "chapter4.tex" 1786061441.80607 5002 11cd4b9adb78dc2e6373c32d2ab92fe3 ""
+  "cluster_discriminanting_variables.png" 1786042748.91252 204512 d11c9bfcf3ed5fde0d760a56649f65b7 ""
+  "cluster_risk_composition.png" 1785873213.83505 130787 8cdfe88b1a28810b6a8a8a959cdb8613 ""
+  "main.aux" 1786061444.49785 13273 41aad4f87426dafd019a9a8f02534673 "pdflatex"
+  "main.bbl" 1786061032.8689 3430 4e2359effc57da1295470f95166252e5 "bibtex main"
+  "main.ind" 1786061032.54313 0 d41d8cd98f00b204e9800998ecf8427e "makeindex main.idx"
+  "main.lof" 1786061444.50569 329 5045b003e59e72dc796622c1574126dd "pdflatex"
+  "main.lot" 1786061444.50569 363 49a24daea621eb31b9e950bed1fa3c0d "pdflatex"
   "main.tex" 1778785247.69723 7013 0f1374d0f6f44d2c0f97bcc4e9d5c9c6 ""
-  "main.toc" 1785531254.66246 2488 088d242fec391afead9f833ebc46db4b "pdflatex"
-  "preambulo.tex" 1785282778.5855 3211 ad43fb4d4a0de87c76b257444eb558e2 ""
-  "tabela_resultados.tex" 1779219807.57288 4205 7392e8587416b1e6624da5dca9ebb281 ""
+  "main.toc" 1786061444.50569 2572 3fbf79c9c4c9739ce4e5a6bcaef00241 "pdflatex"
+  "preambulo.tex" 1785787313.60114 3234 8b87fe9440fc78fdc9e208194f03eb5c ""
   (generated)
   "main.aux"
   "main.idx"
